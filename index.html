@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gameloft/games</title>
+  <link href="css/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/splide.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -155,7 +156,7 @@
         </div>
 
         <!-- Subscribe -->
-        <button class="top-header__btn-subsribe">
+        <button id="btn" class="top-header__btn-subsribe">
           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M2.99991 3H14.9999C15.8249 3 16.4999 3.675 16.4999 4.5V13.5C16.4999 14.325 15.8249 15 14.9999 15H2.99991C2.17491 15 1.49991 14.325 1.49991 13.5V4.5C1.49991 3.675 2.17491 3 2.99991 3Z"
@@ -168,284 +169,284 @@
 
 
         <!-- Hamburger  -->
-        <div class="menu__bar">
+        <div id="menu__bar" class="menu__bar">
           <svg class="side-header__burger-before justify-center" xmlns="http://www.w3.org/2000/svg" width="30"
             height="30">
             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3">
-              <path d="M3,23L24,23" style="transform: none; transform-origin: 13.5px 23px;"
-                transform-origin="13.5px 23px"></path>
-              <path d="M3 15h15" opacity="1" style="transform: none; transform-origin: 10.5px 15px;"
-                transform-origin="10.5px 15px">
-              </path>
-              <path d="M3,7L24,7" style="transform: none; transform-origin: 13.5px 7px;" transform-origin="13.5px 7px">
-              </path>
+              <path id="path1" d="M3,23L24,23" style=" transform-origin: 13.5px 23px;" transform-origin="13.5px 23px"></path>
+              <path id="path2" d="M3,15L15,15" opacity="1" style=" transform-origin: 10.5px 15px;" transform-origin="10.5px 15px"></path>
+              <path id="path3" d="M3,7L24,7" style=" transform-origin: 13.5px 7px;" transform-origin="13.5px 7px"></path>
               <path d="M0 0h30v30H0z" stroke="none"></path>
             </g>
           </svg>
         </div>
-
-        <!-- sticky menu  -->
-        <div class="sticky-icons">
-          <div class="sticky-icons__container-top" style="opacity: 1;">
-            <div style="opacity: 1;">
-              <button class="Button_button-top Button_icon-color-main Button_size-medium-top Button_icon sticky-icons__back-top" >
-                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="sticky-icons__back-top-icon">
-                  <path d="M11.4995 20.2085L11.4995 6.79183" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M4.7912 3.70801L18.2079 3.70801" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M4.79114 13.4999L11.4995 6.79159L18.2078 13.4999" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </button>
-            </div>
-
-            <div class="sticky-icons__container" style="background-color: rgba(244, 244, 244);">
-              <div class="sticky-icons__center seo-main-sticky-btn">
-                <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="sticky-icons__center-icon block">
-                  <path d="M13.8886 25.4622C20.2806 25.4622 25.4623 20.2805 25.4623 13.8885C25.4623 7.49648 20.2806 2.31474 13.8886 2.31474C7.49656 2.31474 2.31482 7.49648 2.31482 13.8885C2.31482 20.2805 7.49656 25.4622 13.8886 25.4622Z" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M13.8886 18.518C16.4454 18.518 18.5181 16.4453 18.5181 13.8885C18.5181 11.3317 16.4454 9.25899 13.8886 9.25899C11.3318 9.25899 9.25906 11.3317 9.25906 13.8885C9.25906 16.4453 11.3318 18.518 13.8886 18.518Z" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M5.70572 5.70585L10.613 10.6131" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M17.164 17.1639L22.0713 22.0711" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M17.164 10.6131L22.0713 5.70585" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M17.164 10.6131L21.2495 6.52759" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
-                  <path d="M5.70572 22.0711L10.613 17.1639" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
-                </svg>
-              </div>
-
-              <div class="sticky-icons__group" style="opacity: 1;">
-                <a href="#" class="Icon_icon-circle Icon_layout-padding Icon_size-small Icon_fill-none sticky-icons__icon">
-                  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon_icon">
-                    <rect x="0.938018" y="5.6525" width="2.1401" height="4.93885" rx="0.918598" stroke="currentColor" stroke-width="1.26446"></rect>
-                    <rect x="11.151" y="5.6525" width="2.1401" height="4.93885" rx="0.918598" stroke="currentColor" stroke-width="1.26446"></rect>
-                    <path d="M12.2222 10.9135V10.9135C12.2222 11.8156 11.4908 12.547 10.5886 12.547H10.066H8.60199" stroke="currentColor" stroke-width="1.26446"></path>
-                    <path d="M2.00775 5.33048V5.33048C2.00775 2.93228 3.95188 0.988159 6.35007 0.988159H7.87911C10.2773 0.988159 12.2214 2.93228 12.2214 5.33048V5.33048" stroke="currentColor" stroke-width="1.26446"></path>
-                    <rect x="5.81753" y="11.8456" width="2.63943" height="1.40296" rx="0.701482" stroke="currentColor" stroke-width="1.26446"></rect>
-                  </svg>
-                </a>
-
-                <span class="Icon_icon-circle Icon_layout-padding Icon_size-small Icon_fill-none sticky-icons__icon ">
-                  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon_icon">
-                    <path d="M13.4999 6C14.7425 6 15.7499 4.99264 15.7499 3.75C15.7499 2.50736 14.7425 1.5 13.4999 1.5C12.2573 1.5 11.2499 2.50736 11.2499 3.75C11.2499 4.99264 12.2573 6 13.4999 6Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M4.49991 11.25C5.74255 11.25 6.74991 10.2426 6.74991 9C6.74991 7.75736 5.74255 6.75 4.49991 6.75C3.25727 6.75 2.24991 7.75736 2.24991 9C2.24991 10.2426 3.25727 11.25 4.49991 11.25Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M13.4999 16.5C14.7425 16.5 15.7499 15.4926 15.7499 14.25C15.7499 13.0074 14.7425 12 13.4999 12C12.2573 12 11.2499 13.0074 11.2499 14.25C11.2499 15.4926 12.2573 16.5 13.4999 16.5Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M6.44247 10.1325L11.565 13.1175" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M11.5575 4.88251L6.44247 7.86751" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-                  </svg>
-                </span>
-
-                <div style="position: relative;">
-                  <span class="Icon_icon-circle Icon_layout-padding Icon_size-small Icon_fill-none sticky-icons__icon">
-                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon_icon">
-                      <path d="M2.99991 3H14.9999C15.8249 3 16.4999 3.675 16.4999 4.5V13.5C16.4999 14.325 15.8249 15 14.9999 15H2.99991C2.17491 15 1.49991 14.325 1.49991 13.5V4.5C1.49991 3.675 2.17491 3 2.99991 3Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-                      <path d="M16.4999 4.5L8.99991 9.75L1.49991 4.5" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
+        
+    </div>
 
-      <!-- Overlay  -->
-      <div class="side-menu__overlay" style="opacity: 1;"></div>
 
-      <!-- side menu  -->
-      <div class="side-menu side-menu--show">
-        <div class="side-header side-header--show">
-          <div class="side-header__menu-container">
-            <div class="side-header__menu-icon">
-              <div class="side-menu__background" style="opacity: 1; width: 10000px; height: 10000px;">
-              </div>
-              <svg class="side-header__burger" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
-                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3">
-                  <path d="M5.636 24.331L24.272 5.639" style="transform: none; transform-origin: 13.5px 23px;" transform-origin="13.5px 23px"></path>
-                  <path d="M3 15h15" opacity="0" style="transform: translateX(-8px); transform-origin: 10.5px 15px;" transform-origin="10.5px 15px"></path>
-                  <path d="M5.636 5.639l18.693 18.692" style="transform: none; transform-origin: 13.5px 7px;" transform-origin="13.5px 7px"></path>
-                  <path d="M0 0h30v30H0z" stroke="none"></path>
-                </g>
-              </svg>
-            </div>
-          </div>
-        </div>
-
-        <div class="side-menu__content-wrapper text-body2" style="display: flex;">
-          <div class="seo-main-burger-menu-tracking-btn">
-            <div class="side-search" style="opacity: 1; transform: none;">
-              <div>
-                <div class="SearchBar_search-bar__0U-Zf text-body1 SearchBar_dark__301hy">
-                  <input type="text" class="SearchBar_input__YtbiT" placeholder="Search" value="search">
-
-                  <div class="SearchBar_icon__aAcLt" style="transform: none; transform-origin: 50% 50% 0px;">
-                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M15.1474 15.7199C15.2953 15.8676 15.535 15.8674 15.6827 15.7195C15.8303 15.5715 15.8301 15.3319 15.6822 15.1842L15.1474 15.7199ZM11.8887 11.9325L11.6213 11.6647L11.8887 11.9325ZM7.39368 13.414C4.08931 13.414 1.4106 10.7353 1.4106 7.43095H0.653613C0.653613 11.1534 3.67124 14.171 7.39368 14.171V13.414ZM1.4106 7.43095C1.4106 4.12659 4.08931 1.44787 7.39368 1.44787V0.69089C3.67124 0.69089 0.653613 3.70852 0.653613 7.43095H1.4106ZM7.39368 1.44787C10.698 1.44787 13.3768 4.12659 13.3768 7.43095H14.1337C14.1337 3.70852 11.1161 0.69089 7.39368 0.69089V1.44787ZM13.3768 7.43095C13.3768 9.08479 12.7062 10.5813 11.6213 11.6647L12.1562 12.2003C13.3775 10.9808 14.1337 9.29381 14.1337 7.43095H13.3768ZM11.6213 11.6647C10.5384 12.746 9.04441 13.414 7.39368 13.414V14.171C9.25304 14.171 10.9372 13.4176 12.1562 12.2003L11.6213 11.6647ZM11.6214 12.2004L15.1474 15.7199L15.6822 15.1842L12.1561 11.6646L11.6214 12.2004Z" fill="currentColor"></path>
-                    </svg>
-                  
-                  </div>
-
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="SearchBar_clear__fyKM-" style="display: none;">
-                    <path d="M10.9146 5.52479C11.0611 5.37834 11.0611 5.1409 10.9146 4.99446C10.7682 4.84801 10.5307 4.84801 10.3843 4.99446L10.9146 5.52479ZM4.83536 10.5434C4.68892 10.6898 4.68892 10.9273 4.83536 11.0737C4.98181 11.2202 5.21925 11.2202 5.36569 11.0737L4.83536 10.5434ZM10.3843 11.0737C10.5307 11.2201 10.7682 11.2201 10.9146 11.0737C11.0611 10.9273 11.0611 10.6898 10.9146 10.5434L10.3843 11.0737ZM5.36569 4.99445C5.21925 4.848 4.98181 4.848 4.83536 4.99445C4.68892 5.1409 4.68892 5.37833 4.83536 5.52478L5.36569 4.99445ZM10.3843 4.99446L4.83536 10.5434L5.36569 11.0737L10.9146 5.52479L10.3843 4.99446ZM10.9146 10.5434L5.36569 4.99445L4.83536 5.52478L10.3843 11.0737L10.9146 10.5434ZM14.625 8C14.625 11.7279 11.6029 14.75 7.875 14.75V15.5C12.0171 15.5 15.375 12.1421 15.375 8H14.625ZM7.875 14.75C4.14708 14.75 1.125 11.7279 1.125 8H0.375C0.375 12.1421 3.73286 15.5 7.875 15.5V14.75ZM1.125 8C1.125 4.27208 4.14708 1.25 7.875 1.25V0.5C3.73286 0.5 0.375 3.85786 0.375 8H1.125ZM7.875 1.25C11.6029 1.25 14.625 4.27208 14.625 8H15.375C15.375 3.85786 12.0171 0.5 7.875 0.5V1.25Z" fill="currentColor"></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a href="#">Home</a>
-            </div>
-
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a href="#">About Us</a>
-            </div>
-
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a class="side-link__item--selected" href="#">Games for Everyone</a>
-            </div>
-
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a href="#">Gaming for Businesses</a>
-            </div>
-
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a href="#">Blogs</a>
-            </div>
-
-            <div class="studio-group side-link-group">
-              <div class="side-link__item text-body2 side-link__item-group-label" style="opacity: 1; transform: none;">
-                Our Studios
-
-                <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898" class="side-link__item-arrow">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
-                </svg>
-              </div>
-
-              <div class="side-link__item-group" style="height: 0px;">
-                <div class="side-link__item-group-container">
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Barcelona</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Bucharest</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Kharkiv</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Montreal</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Brisbane</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Cluj</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Lviv</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Sofia</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Toronto</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Saigon</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Hanoi</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Yogyakarta</a>
-                  </div>
-
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">Paris</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a href="#">Newsroom</a>
-            </div>
-
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a href="#">Careers</a>
-            </div>
-
-            <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
-              <a href="#">Redeem</a>
-            </div>
-
-            <div class="side-link-group">
-              <div class="side-link__item text-body2 side-link__item-group-label" style="opacity: 1; transform: none;">
-                Special Events
-                
-                <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898" class="side-link__item-arrow">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
-                </svg>
-              </div>
-
-              <div class="side-link__item-group" style="height: 0px;">
-                <div class="side-link__item-group-container">
-                  <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
-                    <a href="#">We Belong Here</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button class="side-btn-subsribe seo-main-burger-menu-subscribe-btn" style="opacity: 1; transform: none;">
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2.99991 3H14.9999C15.8249 3 16.4999 3.675 16.4999 4.5V13.5C16.4999 14.325 15.8249 15 14.9999 15H2.99991C2.17491 15 1.49991 14.325 1.49991 13.5V4.5C1.49991 3.675 2.17491 3 2.99991 3Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
-
-              <path d="M16.4999 4.5L8.99991 9.75L1.49991 4.5" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+    <!-- sticky menu  -->
+    <div class="sticky-icons">
+      <div class="sticky-icons__container-top" style="opacity: 1;">
+        <div style="opacity: 1;">
+          <button class="Button_button-top Button_icon-color-main Button_size-medium-top Button_icon sticky-icons__back-top" >
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="sticky-icons__back-top-icon">
+              <path d="M11.4995 20.2085L11.4995 6.79183" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M4.7912 3.70801L18.2079 3.70801" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M4.79114 13.4999L11.4995 6.79159L18.2078 13.4999" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
             </svg>
-
-            &nbsp; Subscribe
           </button>
-
-          <div>
-            <div class="follow-us" style="opacity: 1; transform: none;">
-              <div class="SocialChannel_social-channel__A3sbm follow-us__container">
-                <div class="text-body2 SocialChannel_title__88oYm">Find us on</div>
-
-                <div class="SocialChannel_icon-container__GznLE follow-us__icons seo-side-menu-social-tracking-btn">
-                  <a href="https://gmlft.co/SNS_FB_EN" class="Icon_icon-circle__ZXlwO Icon_layout-fill__dr+jt Icon_fill-color__q4cZt SocialChannel_icon__I28hu follow-us__icon">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR0SURBVHgB5Zs7cNNAEIb/u5hHA7gEKtPQohAKurikgCGUVJgG6JKhogBih6E3JV1oqANDH6cnY9U0KE2gNENDEevYPcmOrUiOZOvOUvzNJHpYTvTrdvfu9lYCBnE2VBWXsSoF6gKo8ilFW9qvjV5H5zw659FuTym4PuCKPtzue3EAQwjkzPIbtSpYqMAaHTqYDZceSkcdoZ33Q8hFeNiyD5cEGnRYhxncvkLb3RKfkAMzC195q9aVQDM0ZeOwW/gKzVkfwNTCtUlLbEf91Rb8AJSPRved2MMUZBbOZi2vYJO+uIECQA+g7f9By22LXpbvZRLuvFI1eQG782rlJHTrH6GeJQDKtBeyaZPobtFEM3xPsgKX7zHtd1IJpwD2REp0bAWwKanyPfK9prn4VFPXf0hgG2VCobF/StSfKFybNz1FlBDfJ5+fEPEThYeBrFtw855Ezz+CkxTwYn1cd1lB9C6raKYqKujoUWUMscLDfrqGkqOjPWlJ+GycMvt1EnH+XolexMNQWOTSReDmVeD6iEH+/Rf8/PgdbGcl1HRj7NzogUNd15KlrosFP6sD951gP459D3i+jXxQ2KAu7sPgcMzHKWHQhAW4dT+/AB7fTRadO6RtNNANhXNr2wpoHxvANfv9hc4ZDA6GwsnErcy2HjhzEa0JEyUaLZwHK5g9TZSK+6f8Fw5o7Nv8w/s5Ux9MZHRUp8HKOiyxUos/f9gLAtmvTLPq7HA+kDZ7usWFuTzZGJMCWWvHvGgmTIJC2jTzScLZtC3h6CE5zuMWFowK5/qlpdYuEj75uSSbXzjhPOvkqG6sV91cGz+e5OPRa5lvrjHfdyqUoazlvo4U8iCDLcVdy8JNwOt3ssjz7jxmZnHoeToKjIGR25DCCjcpmims8EPTQ9fbm+qnLT/nefjXhDngnSaswUtOHNwsjJCLBVdfsKkb6jQKTU+qBWxxrrORvjpbqeQ0kJm7kn5PVVFQZvrnSbjb1JUEi+Tnbve1OND9ONn8DhYELh/jbSC8sjh+rs6hzVstvPtWryt1cPbRZs47x0NWVbKqh2lQQWszQ+F9iS842326N1oeMhSuo7uys3Y2FyLaTiRfVmjSAkOTFk49vbwX/1nLbL/i7bfE2DLxifVxfwkN2TcT6Dij0ppDx0kJ1afRcyfm4xzhuUwSZwTW8r0pOtHzsYkIyju3EBTOlx0v1HKC5HKvpqotKXRR5nKvc3AG/XaUxNQTRXmP/H0NJYX8+lGSaGZizk2P6NTxYnppoHuO8+tRUq0llKqeNUUdK5N6EWV5S61SN8edUVF9vsfmfVpLD8hWqB8EvF0Ub/XFo0BWn+TTUTLl1Tng9QWWi9TP873wPWURzUz/Mk5g+tuYX+t7PCJLa9pR8nj9igNfE/YegJ5MjVYpTkNuK8ThA+B1ElOFBh3OGfD0OcwTzkTuS+McAGnRfV0FlVSzv2JJ+UBJmeBpTToJUzUBGt0L8Iu0Pm6FJSfVsBChNnpd+FKtzvbyVgns9amF82jZJP4Dzex3VYh4gNEAAAAASUVORK5CYII=" alt="facebook" class="Icon_icon">
-                  </a>
-
-                  <a href="https://www.instagram.com/gameloft" class="Icon_icon-circle__ZXlwO Icon_layout-fill__dr+jt Icon_fill-color__q4cZt SocialChannel_icon__I28hu follow-us__icon">
-                   <img src="data:image/png;base64,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" alt="instagram" class="Icon_icon__9oiVm">
-                  </a>
-
-                  <a href="https://www.linkedin.com/company/gameloft" class="Icon_icon-circle__ZXlwO Icon_layout-fill__dr+jt Icon_fill-color__q4cZt SocialChannel_icon__I28hu follow-us__icon">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUWSURBVHgB5Zs9bNtGFMf/R9ESINSAWnVJ0A96cUYrW9tF6tKtSIpOnSQDiWtPdtGtLRB56awOgR0HReQpRbsoSNci1BIvLaKiU7xYBop2aVAFAWJIkHl572hFH6RkSaQsUvoBBsUjRfN/7+7du3cngUmSu5dArJmGtDIQMgEpUlSaoD+j584qpKxCoAaICoRWQZOOP944xoQQ8JubeyRUZqDhOp2l4I0K/Zk4jRT8rgR/hLNlo41rJDgHITKYDFwJBex9uQ8f8C785u4mPSZPT0rgQqAuwf/PYwWML5ybtJBFOPvrBUEVILUc7q6VMQajC7eb9S36tIUgYMkCmrFtFFdro3xtNOG5HQNR7RGmZuV+kPVP9cwoDlAb9kbVtBe0JwicaEYY0E4r6h2HZDjha3ey1J/Ni3NgY8Dvxu/I7zrU7edhP6iIcJE7z+sPFm57bhNhRFI8McDj9xfOjoz7dJCb9yAkhb9WJNXP4bn3cTVkkfcOq2iG3z3SNJUWF9yF2+O0gdAjDOj1W65XHCVh7tf9cOnvTovbYehsIaxib1G3cHvoMjBzCMOeTLXptXgeMwvN6DocXVu4T9ZeeSeJ9PIlJOJRBAr28pwzOEPvuORptmUk38Cjrz+l46I6r/73Avlf/8D+wSECAydKABXR2V7dnnUdwQNPvvscqXeTXWW1l3UsfXufjg0EhjMPbzf1qLYJj/SKZhLxGIy3FhEoOB+Idh/PwCNsXTf+PwmQtRmhkqAknJu592wotn4+cJTlH/6O42cvECgEaSXvriOmr1DeG15hJ1Y+/BfZD5fVOX82D/9BINHraZ1Ee7Z2iypZd5s8eeDRRIaHM1+Ev590d2KdTd3tnucn9dden8f/zPJlNSRyJVb+foYHlSp8h1Z19LOlHXilmM0gc+VSVxm//NI399vn33/h+F7+IY/1T3FPff+y4zrHA1u/HPhbAZZIaSTawBRpBT5uotX1txdR2vgE11IGfIOiOB7ODEyR3EdXXkd7gyhm036Gwcbw6eUJw3EAd41+8QAHQ9kPluEXgRBefPyUQtuflD9486t9FH77y/U+dnx+MXXh7LxW98tdluYh0c3yqfeS8AsWXsUUKf1ZdZTx8GZSADRBqix8pMU2v+k3c5vojE4KEi5kBfOGsGo8jk/V4tNBVMjimol5w5IkvK6PtaMg1MR0Em7vJJiffi5J6+0bx61xvIR5QcDkgy08IkzMCwuRAh9s4Tu0rjRr62VunDVz/tjOq0tRhIekY6lypCYZndROusPO4mNnjp2TDW64pa16nzcyAoX2xxa8vLLQOAr1mvhAZBV760uts/Ykhb27RutLM0u3NmfOae0Or6gYmCm6rc04p6URkcOsoclVR5Hjph21c6CA2aGA3Q2zt9A9EdGIbmPK83R/oCYeV1ocuAtXjs76WG2ZCiv87gt6BgX3zb39U0+7G1Xo4jrCSsT6rBWsuDE452b39xzCR86tX3cy3BJKuPaz5ob59cLwa0cbe2k0ZSmwkR33aW7e51i6xWiLZuu0lm4FdKM+O7Lbk9ioz7DDa0SvIljjfAHx2NVRRDPjL5Ny0z+d8o9xOCIbsmn34n192HZ8eVxUBajYQuZxd/0HeMC78BaqAsQWvZRvOyy6EJQlktTC4tEH/YKSkR4Hv2EHKLVNtZ/McyUISoLSSKJZ5XGbdN8nY5LYowCLXwFvOREiQVYz4PajWtDChrAq6ihRJsuafli2H68AxQ7H8TEwOSEAAAAASUVORK5CYII=" alt="linkedin" class="Icon_icon">
-                  </a>
-                  
-                  <a href="https://gmlft.co/SNS_TW_EN" class="Icon_icon-circle__ZXlwO Icon_layout-fill__dr+jt Icon_fill-color__q4cZt SocialChannel_icon__I28hu follow-us__icon">
-                    <img src="data:image/png;base64,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" alt="twitter" class="Icon_icon__9oiVm">
-                </a>
-                  <a href="https://www.youtube.com/user/gameloft" class="Icon_icon-circle__ZXlwO Icon_layout-fill__dr+jt Icon_fill-color__q4cZt SocialChannel_icon__I28hu follow-us__icon">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOMSURBVHgB7ZvrVatAEMeHnPtdOgipINwKwAquHSRWEDuIHWAHagVqBeRWQKwArCCxgrkzLhjg5rWTXR6Jv3NGkANh/zu7s08csAgCuHQIyEJQ535+9Gq3ZrmtyZaFOQAf0BdIbEA2J0vI8ETj34jIhtBF2LNkE7LYgNh9mTCBrkCJmZGtLAquW9pqBuRFOm1Q8LYMCKAp8mIdtSi4bpwWF2xCL/CwXS/v8/4QbJAX7Sbrsq6tjBd9VBG7q4LrNgET9Ey0GfGoindfxNYtAAmoAlmX6/Qh47QPd+kb7BDNzUMMtpsJu3DaF7hDw2DHQ3P4fyDRRzxQWg7T83p9dH13tghP4Ty8XSYjoaPyhUpRR9UMeHB+cKCelS9UPH6m3i7gSY6Ro47wq7hqzNsuBdGrK3V03c01V6OByLLN+Xqt7OPkyRhOwB+y58pVlM6YBAHi4yNimqJ1VivEOEaMIsThUBLk4rpoTyR6PsfW4IyWiQ/KwvXH1+Mxtg6L1xc+Z81FVA9Bl7s7aB3PI/8Fuk/d8J8BqoDmgy6+/iNW0E+HT5pd9vgYJPRXOBOwcP0nuYhJWK/BODrN5IZQJlz2MloboQWSEfUcn57AGDInfBV1fRXcQZHCnZPbWwoxN9WOihSZE3wW7kEbvL0p70+nZjJAD1cmfDQCYzxTD/L6Wl78ZUXdG0AXKIo/Z+jrKzRBN4QXFIObBuiGcBYbRSrqhyE0AQvPQJfVCowxo/mBNJV3gWWBMePxuH6vwkRHhPvYDw9t9QAz9vgSdPn8BDEcheOYJn4XZkTLnLBu1uMsNEnMBjBZWpbs8QXoIu1w6E5BHYMsLV/C/4KE5ntb21nq11R+auBstljpwXW0C7y/gyZf28iKdly/u2RyhCWFS52+AxbfZyhdNurnZOOwkg0o3aPm+4gvL4hJgtbh6WV+D2e460pEJ4VepyR8QocnOJUictdHTTqjqHLgLM7NBNOpky8olIVzO5NCv9fE91FZOPwepOTR/R7Ol/vyPz/LxCWmcH7cHnUXdmvL5qkWbdPo7BDOAY5Dvwf9JiP77egMxPDMt3sdEh/0ROQ2C+EU8BK3dPZU/ARMgv3Yth2CDfASN+qXxF/epxm1DAiw/Y9xQmgLVIGvyQzgujyDrpBnQIL2BMf5O7o5bEYVACM094nl3EaRdsAiuNlRNYbqB7Ve7dYMNrO9fOQp74UjWew4kn9UU0SnqvDzpQAAAABJRU5ErkJggg==" alt="youtube" class="Icon_icon">
-                </a></div>
-              </div>
+        </div>
+  
+        <div class="sticky-icons__container" style="background-color: rgba(244, 244, 244);">
+          <div class="sticky-icons__center">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" class="sticky-icons__center-icon block">
+              <path d="M13.8886 25.4622C20.2806 25.4622 25.4623 20.2805 25.4623 13.8885C25.4623 7.49648 20.2806 2.31474 13.8886 2.31474C7.49656 2.31474 2.31482 7.49648 2.31482 13.8885C2.31482 20.2805 7.49656 25.4622 13.8886 25.4622Z" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M13.8886 18.518C16.4454 18.518 18.5181 16.4453 18.5181 13.8885C18.5181 11.3317 16.4454 9.25899 13.8886 9.25899C11.3318 9.25899 9.25906 11.3317 9.25906 13.8885C9.25906 16.4453 11.3318 18.518 13.8886 18.518Z" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5.70572 5.70585L10.613 10.6131" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M17.164 17.1639L22.0713 22.0711" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M17.164 10.6131L22.0713 5.70585" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M17.164 10.6131L21.2495 6.52759" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
+              <path d="M5.70572 22.0711L10.613 17.1639" stroke="currentColor" stroke-width="1.95863" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </div>
+  
+          <div class="sticky-icons__group" style="opacity: 0;">
+            <a href="#" class="Icon_icon-circle Icon_layout-padding Icon_size-small Icon_fill-none sticky-icons__icon">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon_icon">
+                <rect x="0.938018" y="5.6525" width="2.1401" height="4.93885" rx="0.918598" stroke="currentColor" stroke-width="1.26446"></rect>
+                <rect x="11.151" y="5.6525" width="2.1401" height="4.93885" rx="0.918598" stroke="currentColor" stroke-width="1.26446"></rect>
+                <path d="M12.2222 10.9135V10.9135C12.2222 11.8156 11.4908 12.547 10.5886 12.547H10.066H8.60199" stroke="currentColor" stroke-width="1.26446"></path>
+                <path d="M2.00775 5.33048V5.33048C2.00775 2.93228 3.95188 0.988159 6.35007 0.988159H7.87911C10.2773 0.988159 12.2214 2.93228 12.2214 5.33048V5.33048" stroke="currentColor" stroke-width="1.26446"></path>
+                <rect x="5.81753" y="11.8456" width="2.63943" height="1.40296" rx="0.701482" stroke="currentColor" stroke-width="1.26446"></rect>
+              </svg>
+            </a>
+  
+            <span class="Icon_icon-circle Icon_layout-padding Icon_size-small Icon_fill-none sticky-icons__icon ">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon_icon">
+                <path d="M13.4999 6C14.7425 6 15.7499 4.99264 15.7499 3.75C15.7499 2.50736 14.7425 1.5 13.4999 1.5C12.2573 1.5 11.2499 2.50736 11.2499 3.75C11.2499 4.99264 12.2573 6 13.4999 6Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M4.49991 11.25C5.74255 11.25 6.74991 10.2426 6.74991 9C6.74991 7.75736 5.74255 6.75 4.49991 6.75C3.25727 6.75 2.24991 7.75736 2.24991 9C2.24991 10.2426 3.25727 11.25 4.49991 11.25Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M13.4999 16.5C14.7425 16.5 15.7499 15.4926 15.7499 14.25C15.7499 13.0074 14.7425 12 13.4999 12C12.2573 12 11.2499 13.0074 11.2499 14.25C11.2499 15.4926 12.2573 16.5 13.4999 16.5Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M6.44247 10.1325L11.565 13.1175" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M11.5575 4.88251L6.44247 7.86751" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+            </span>
+  
+            <div style="position: relative;">
+              <span class="Icon_icon-circle Icon_layout-padding Icon_size-small Icon_fill-none sticky-icons__icon">
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" class="Icon_icon">
+                  <path d="M2.99991 3H14.9999C15.8249 3 16.4999 3.675 16.4999 4.5V13.5C16.4999 14.325 15.8249 15 14.9999 15H2.99991C2.17491 15 1.49991 14.325 1.49991 13.5V4.5C1.49991 3.675 2.17491 3 2.99991 3Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M16.4999 4.5L8.99991 9.75L1.49991 4.5" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </span>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Overlay  -->
+    <div class="side-menu__overlay" style="opacity: 1;"></div>
   </nav>
+  
+
+  <!-- side menu  -->
+  <div id="side-menu" class="side-menu side-menu--show">
+    <div class="side-header side-header--show">
+      <div class="side-header__menu-container">
+        <div class="side-header__menu-icon">
+          <div class="side-menu__background" style="opacity: 1; width: 10000px; height: 10000px;">
+          </div>
+          <svg class="side-header__burger" xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3">
+              <path d="M5.636 24.331L24.272 5.639" style="transform: none; transform-origin: 13.5px 23px;" transform-origin="13.5px 23px"></path>
+              <path d="M3 15h15" opacity="0" style="transform: translateX(-8px); transform-origin: 10.5px 15px;" transform-origin="10.5px 15px"></path>
+              <path d="M5.636 5.639l18.693 18.692" style="transform: none; transform-origin: 13.5px 7px;" transform-origin="13.5px 7px"></path>
+              <path d="M0 0h30v30H0z" stroke="none"></path>
+            </g>
+          </svg>
+        </div>
+      </div> 
+    </div>
+
+    <div class="side-menu__content-wrapper text-body2" style="display: flex;">
+      <div>
+        <div class="side-search" style="opacity: 1; transform: none;">
+          <div>
+            <div class="SearchBar_search-bar text-body1 SearchBar_dark">
+              <input type="text" class="SearchBar_input" placeholder="Search" value="Search">
+
+              <div class="SearchBar_icon" style="transform: none; transform-origin: 50% 50% 0px;">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15.1474 15.7199C15.2953 15.8676 15.535 15.8674 15.6827 15.7195C15.8303 15.5715 15.8301 15.3319 15.6822 15.1842L15.1474 15.7199ZM11.8887 11.9325L11.6213 11.6647L11.8887 11.9325ZM7.39368 13.414C4.08931 13.414 1.4106 10.7353 1.4106 7.43095H0.653613C0.653613 11.1534 3.67124 14.171 7.39368 14.171V13.414ZM1.4106 7.43095C1.4106 4.12659 4.08931 1.44787 7.39368 1.44787V0.69089C3.67124 0.69089 0.653613 3.70852 0.653613 7.43095H1.4106ZM7.39368 1.44787C10.698 1.44787 13.3768 4.12659 13.3768 7.43095H14.1337C14.1337 3.70852 11.1161 0.69089 7.39368 0.69089V1.44787ZM13.3768 7.43095C13.3768 9.08479 12.7062 10.5813 11.6213 11.6647L12.1562 12.2003C13.3775 10.9808 14.1337 9.29381 14.1337 7.43095H13.3768ZM11.6213 11.6647C10.5384 12.746 9.04441 13.414 7.39368 13.414V14.171C9.25304 14.171 10.9372 13.4176 12.1562 12.2003L11.6213 11.6647ZM11.6214 12.2004L15.1474 15.7199L15.6822 15.1842L12.1561 11.6646L11.6214 12.2004Z" fill="currentColor"></path>
+                </svg>
+              
+              </div>
+
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="SearchBar_clear" style="display: none;">
+                <path d="M10.9146 5.52479C11.0611 5.37834 11.0611 5.1409 10.9146 4.99446C10.7682 4.84801 10.5307 4.84801 10.3843 4.99446L10.9146 5.52479ZM4.83536 10.5434C4.68892 10.6898 4.68892 10.9273 4.83536 11.0737C4.98181 11.2202 5.21925 11.2202 5.36569 11.0737L4.83536 10.5434ZM10.3843 11.0737C10.5307 11.2201 10.7682 11.2201 10.9146 11.0737C11.0611 10.9273 11.0611 10.6898 10.9146 10.5434L10.3843 11.0737ZM5.36569 4.99445C5.21925 4.848 4.98181 4.848 4.83536 4.99445C4.68892 5.1409 4.68892 5.37833 4.83536 5.52478L5.36569 4.99445ZM10.3843 4.99446L4.83536 10.5434L5.36569 11.0737L10.9146 5.52479L10.3843 4.99446ZM10.9146 10.5434L5.36569 4.99445L4.83536 5.52478L10.3843 11.0737L10.9146 10.5434ZM14.625 8C14.625 11.7279 11.6029 14.75 7.875 14.75V15.5C12.0171 15.5 15.375 12.1421 15.375 8H14.625ZM7.875 14.75C4.14708 14.75 1.125 11.7279 1.125 8H0.375C0.375 12.1421 3.73286 15.5 7.875 15.5V14.75ZM1.125 8C1.125 4.27208 4.14708 1.25 7.875 1.25V0.5C3.73286 0.5 0.375 3.85786 0.375 8H1.125ZM7.875 1.25C11.6029 1.25 14.625 4.27208 14.625 8H15.375C15.375 3.85786 12.0171 0.5 7.875 0.5V1.25Z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a href="#">Home</a>
+        </div>
+
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a href="#">About Us</a>
+        </div>
+
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a class="side-link__item--selected" href="#">Games for Everyone</a>
+        </div>
+
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a href="#">Gaming for Businesses</a>
+        </div>
+
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a href="#">Blogs</a>
+        </div>
+
+        <div class="studio-group side-link-group">
+          <div class="side-link__item text-body2 side-link__item-group-label" style="opacity: 1; transform: none;">
+            Our Studios
+
+            <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898" class="side-link__item-arrow">
+              <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+            </svg>
+          </div>
+
+          <div class="side-link__item-group" style="height: 0px;">
+            <div class="side-link__item-group-container">
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Barcelona</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Bucharest</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Kharkiv</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Montreal</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Brisbane</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Cluj</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Lviv</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Sofia</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Toronto</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Saigon</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Hanoi</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Yogyakarta</a>
+              </div>
+
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">Paris</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a href="#">Newsroom</a>
+        </div>
+
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a href="#">Careers</a>
+        </div>
+
+        <div class="side-link__item text-body2" style="opacity: 1; transform: none;">
+          <a href="#">Redeem</a>
+        </div>
+
+        <div class="side-link-group">
+          <div class="side-link__item text-body2 side-link__item-group-label" style="opacity: 1; transform: none;">
+            Special Events
+            
+            <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898" class="side-link__item-arrow">
+              <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+            </svg>
+          </div>
+
+          <div class="side-link__item-group" style="height: 0px;">
+            <div class="side-link__item-group-container">
+              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+                <a href="#">We Belong Here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="side-btn-subsribe seo-main-burger-menu-subscribe-btn" style="opacity: 1; transform: none;">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.99991 3H14.9999C15.8249 3 16.4999 3.675 16.4999 4.5V13.5C16.4999 14.325 15.8249 15 14.9999 15H2.99991C2.17491 15 1.49991 14.325 1.49991 13.5V4.5C1.49991 3.675 2.17491 3 2.99991 3Z" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+
+          <path d="M16.4999 4.5L8.99991 9.75L1.49991 4.5" stroke="currentColor" stroke-width="1.42446" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+
+        &nbsp; Subscribe
+      </button>
+
+      <div>
+        <div class="follow-us" style="opacity: 1; transform: none;">
+          <div class="SocialChannel_social-channel follow-us__container">
+            <div class="text-body2 SocialChannel_title">Find us on</div>
+
+            <div class="SocialChannel_icon-container follow-us__icons">
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon follow-us__icon">
+                <img src="asset/facebook.png" alt="facebook" class="Icon_icon">
+              </a>
+
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon follow-us__icon">
+               <img src="asset/instagram.png" alt="instagram" class="Icon_icon">
+              </a>
+
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon follow-us__icon">
+                <img src="asset/linkedin.png" alt="linkedin" class="Icon_icon">
+              </a>
+              
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon follow-us__icon">
+                <img src="asset/twitter.png" alt="twitter" class="Icon_icon">
+              </a>
+
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon follow-us__icon">
+                <img src="asset/youtube.png" alt="youtube" class="Icon_icon">
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <main>
     <section class="splide">
@@ -875,7 +876,7 @@
           </div> -->
         </div>
         <div class="com-gallery__game-container">
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -895,7 +896,7 @@
             </a>
           </div>
           
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -915,7 +916,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -934,8 +935,8 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"><a
-              href="#" >
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+            <a href="#" >
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
                   <div class="com-game-card__read-more">Explore More</div>
@@ -954,8 +955,8 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"><a
-              href="#">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;" data-aos="fade-up" data-aos-delay="200">
+            <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
                   <div class="com-game-card__read-more">Explore More</div>
@@ -974,7 +975,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -994,7 +995,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#" >
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1016,7 +1017,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1036,7 +1037,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1056,7 +1057,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1076,7 +1077,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1096,7 +1097,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1116,7 +1117,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1136,7 +1137,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a
               href="#">
               <div class="com-game-card">
@@ -1157,7 +1158,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#" class="">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1177,7 +1178,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1197,7 +1198,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1217,7 +1218,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1237,7 +1238,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1256,7 +1257,7 @@
             </a>
           </div>
   
-          <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
             <a href="#">
               <div class="com-game-card">
                 <div class="com-game-card__icon-wrapper">
@@ -1290,165 +1291,166 @@
         </button>
       </div>
 
-      <div class="com-footer">
-        <div class="com-footer__wrapper">
-          <div style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;">
-            <a href="#">
-              <svg width="566.87"
-                height="130.71" viewBox="0 0 149.98 34.583" class="com-footer__logo">
-                <g transform="translate(70.456 83.815)">
-                  <g transform="matrix(.26457 0 0 .26457 -83.057 -93.761)" fill="currentColor">
-                    <path
-                      d="m53.08 147.92c3.2 5.57 8.08 8.18 14.21 8.87 22 2.51 87.63 1.14 87.73 1.14 15.57 0 28.07-7.13 31.45-21.86 0.86-3.75 1.54-16.46 0.76-29.94-0.82-14-7.2-23.25-26.24-24.55-25.29-1.71-61.06-0.9-75.53 0.59-7.73 0.8-12.23 6.08-12.13 13.28 0.23 17.16 0.42 19.8 0.6 20.73 7.68 1.1 7.59 1.17 7.82 0.75a8.64 8.64 0 0 1 6.69-4.46c3.26-0.43 0.8-0.3 68.7-1.33 2.65 0 4.23 1.2 4.72 3.81a38.25 38.25 0 0 1 0.31 10.25c-0.22 2.91-2.62 7.55-7 7.61-0.1 0-48.64 0.23-71.8-0.84-7-0.32-14.67-7.22-14.67-20.06 0-5.45 0-23 0.46-28.45a14.49 14.49 0 0 1 12-13.18c8.64-1.57 89.15-0.62 94.26 0.55 14.53 3.32 15.75 20.73 15.8 21.1 1.36 10 1.49 21.28 1.37 31.47-0.3 23-8.89 28.05-11.76 31.37-0.86 1 0.25 1.46 1.95 2.69 7.22-1.35 17.55-9.25 19.57-26 0.78-6.47 1.38-21.28 0.13-47.85-0.81-17.25-8.06-32.11-32.1-34.85-20.85-2.37-66.77-0.48-87.39 0-36 0.82-35.32 21.37-35.33 29.74-0.14 52.99-0.09 59.85 5.42 69.42z">
-                    </path>
-                    <path
-                      d="m301.82 79.16a4.92 4.92 0 0 1 3.08 0.93 5.88 5.88 0 0 1 1.84 2.46l18 44.2h-14.25c-0.43-0.09-0.66-0.5-0.85-1.22l-2.41-7.61c-0.1-0.82-0.55-1-1.57-1h-14.07c-1 0-1.47 0.19-1.57 1l-2.41 7.65c-0.18 0.72-0.41 1.13-0.85 1.22h-14.29l18.05-44.2a5.82 5.82 0 0 1 1.35-2 5.12 5.12 0 0 1 3.61-1.35zm-8.08 27.69h9.77l-4.89-14.17z">
-                    </path>
-                    <path
-                      d="m254.91 115.47c1.26 0 1.56-0.37 1.52-1.57v-7.34c0-1.81-0.88-2.81-2.43-3.65-0.42-0.22-2.2-1.47-1.06-1.47h14.51c1.2 0 1.58 0.28 1.57 1.53v17c0 3.44-2.36 6.78-6.23 6.78h-24.64c-2.49 0-12.93-1.55-12.93-13.85v-19.85c0-12.3 10.44-13.91 12.93-13.89h29.34c1.26 0 1.55 0.39 1.53 1.59v7.54c0 1.2-0.27 1.57-1.53 1.57h-21.82c-4.82 0-7.2 2.53-7.2 5.66v14.29c0 3.12 2.38 5.66 7.2 5.66 0.46 0-0.55-0.03 9.24 0z">
-                    </path>
-                    <path
-                      d="m504.45 115.47c-4.81 0-7.19-2.54-7.19-5.66v-14.29c0-3.13 2.38-5.66 7.2-5.66h6.11c4.81 0 7.19 2.53 7.19 5.66v14.29c0 3.12-2.37 5.66-7.19 5.66zm13.63 11.28c2.5 0 12.94-1.55 12.94-13.85v-19.85c0-12.3-10.44-13.91-12.93-13.89h-21.15c-2.5 0-12.93 1.59-12.93 13.89v19.87c0 12.3 10.43 13.87 12.93 13.85z">
-                    </path>
-                    <path
-                      d="m360.39 126.4 16.5-28.05v26.9c0 0.73 0 1.5 1.38 1.5h10.7c1 0 1.38-0.31 1.38-1.47 0-23 0.12-15.91 0-39.31 0-3.44-2.36-6.81-6.23-6.81h-5.09a3.78 3.78 0 0 0-3.52 1.61c-15.92 24.49-14.87 23.21-15.73 23.4-0.86-0.19 0.2 1.11-15.73-23.4a3.78 3.78 0 0 0-3.52-1.61h-5.14c-3.88 0-6.21 3.37-6.23 6.81v39.31c0 1.16 0.34 1.47 1.38 1.47h10.7c1 0 1.38-0.31 1.38-1.47v-26.93l16.5 28.05a0.7 0.7 0 0 0 1.27 0z">
-                    </path>
-                    <path
-                      d="m477.91 116.43a1.71 1.71 0 0 0-1.22-0.33h-15.12a1.45 1.45 0 0 1-1.45-1.46v-33.93c0-0.74 0-1.55-1.38-1.55h-10.7c-1 0-1.38 0.35-1.38 1.51v39.31c0 3.45 2.35 6.77 6.23 6.77h30a28.44 28.44 0 0 1-4.98-10.32z">
-                    </path>
-                    <path
-                      d="m614.39 88.22c-2.4-7.83-10.19-9.08-12.3-9.06h-57.53c-3.87 0-6.19 3.37-6.23 6.81v39.31c0 1.16 0.34 1.47 1.38 1.47h10c1 0 1.38-0.31 1.38-1.47v-15.82a1.46 1.46 0 0 1 1.46-1.46h11.49c1.26 0 1.53-0.35 1.53-1.57v-6.91c0-1.22-0.27-1.57-1.53-1.57h-11.5a1.45 1.45 0 0 1-1.46-1.45v-5.19a1.45 1.45 0 0 1 1.46-1.45h28.2v35.42c0 1.16 0.34 1.47 1.37 1.47h10.71c1 0 1.38-0.31 1.38-1.47v-35.42h18.68c1.26 0 1.92-0.3 1.51-1.64z">
-                    </path>
-                    <path
-                      d="m436.09 106.43c0 1.22-0.27 1.58-1.53 1.57h-22.29a1.47 1.47 0 0 0-1.46 1.46v5.18a1.46 1.46 0 0 0 1.46 1.46h25c1.26 0 1.53 0.41 1.53 1.57v7.54c0 1.2-0.27 1.55-1.52 1.54h-33c-3.87 0-6.19-3.32-6.22-6.77v-34c0-3.44 2.35-6.81 6.23-6.81h33c1.25 0 1.55 0.39 1.53 1.59v7.54c0 1.16-0.27 1.57-1.52 1.57h-25.03a1.46 1.46 0 0 0-1.46 1.45v5.19a1.46 1.46 0 0 0 1.46 1.45h22.29c1.26 0 1.53 0.35 1.53 1.57z">
-                    </path>
-                  </g>
-                </g>
-              </svg>
-            </a>
+    </section>
+  </main>
+
+  <footer class="com-footer">
+    <div class="com-footer__wrapper">
+      <div style="transform: translate(0px, 0px); opacity: 1; visibility: inherit;" >
+        <a href="#"  data-aos="fade-up" data-aos-delay="200">
+          <svg width="566.87"
+            height="130.71" viewBox="0 0 149.98 34.583" class="com-footer__logo">
+            <g transform="translate(70.456 83.815)">
+              <g transform="matrix(.26457 0 0 .26457 -83.057 -93.761)" fill="currentColor">
+                <path
+                  d="m53.08 147.92c3.2 5.57 8.08 8.18 14.21 8.87 22 2.51 87.63 1.14 87.73 1.14 15.57 0 28.07-7.13 31.45-21.86 0.86-3.75 1.54-16.46 0.76-29.94-0.82-14-7.2-23.25-26.24-24.55-25.29-1.71-61.06-0.9-75.53 0.59-7.73 0.8-12.23 6.08-12.13 13.28 0.23 17.16 0.42 19.8 0.6 20.73 7.68 1.1 7.59 1.17 7.82 0.75a8.64 8.64 0 0 1 6.69-4.46c3.26-0.43 0.8-0.3 68.7-1.33 2.65 0 4.23 1.2 4.72 3.81a38.25 38.25 0 0 1 0.31 10.25c-0.22 2.91-2.62 7.55-7 7.61-0.1 0-48.64 0.23-71.8-0.84-7-0.32-14.67-7.22-14.67-20.06 0-5.45 0-23 0.46-28.45a14.49 14.49 0 0 1 12-13.18c8.64-1.57 89.15-0.62 94.26 0.55 14.53 3.32 15.75 20.73 15.8 21.1 1.36 10 1.49 21.28 1.37 31.47-0.3 23-8.89 28.05-11.76 31.37-0.86 1 0.25 1.46 1.95 2.69 7.22-1.35 17.55-9.25 19.57-26 0.78-6.47 1.38-21.28 0.13-47.85-0.81-17.25-8.06-32.11-32.1-34.85-20.85-2.37-66.77-0.48-87.39 0-36 0.82-35.32 21.37-35.33 29.74-0.14 52.99-0.09 59.85 5.42 69.42z">
+                </path>
+                <path
+                  d="m301.82 79.16a4.92 4.92 0 0 1 3.08 0.93 5.88 5.88 0 0 1 1.84 2.46l18 44.2h-14.25c-0.43-0.09-0.66-0.5-0.85-1.22l-2.41-7.61c-0.1-0.82-0.55-1-1.57-1h-14.07c-1 0-1.47 0.19-1.57 1l-2.41 7.65c-0.18 0.72-0.41 1.13-0.85 1.22h-14.29l18.05-44.2a5.82 5.82 0 0 1 1.35-2 5.12 5.12 0 0 1 3.61-1.35zm-8.08 27.69h9.77l-4.89-14.17z">
+                </path>
+                <path
+                  d="m254.91 115.47c1.26 0 1.56-0.37 1.52-1.57v-7.34c0-1.81-0.88-2.81-2.43-3.65-0.42-0.22-2.2-1.47-1.06-1.47h14.51c1.2 0 1.58 0.28 1.57 1.53v17c0 3.44-2.36 6.78-6.23 6.78h-24.64c-2.49 0-12.93-1.55-12.93-13.85v-19.85c0-12.3 10.44-13.91 12.93-13.89h29.34c1.26 0 1.55 0.39 1.53 1.59v7.54c0 1.2-0.27 1.57-1.53 1.57h-21.82c-4.82 0-7.2 2.53-7.2 5.66v14.29c0 3.12 2.38 5.66 7.2 5.66 0.46 0-0.55-0.03 9.24 0z">
+                </path>
+                <path
+                  d="m504.45 115.47c-4.81 0-7.19-2.54-7.19-5.66v-14.29c0-3.13 2.38-5.66 7.2-5.66h6.11c4.81 0 7.19 2.53 7.19 5.66v14.29c0 3.12-2.37 5.66-7.19 5.66zm13.63 11.28c2.5 0 12.94-1.55 12.94-13.85v-19.85c0-12.3-10.44-13.91-12.93-13.89h-21.15c-2.5 0-12.93 1.59-12.93 13.89v19.87c0 12.3 10.43 13.87 12.93 13.85z">
+                </path>
+                <path
+                  d="m360.39 126.4 16.5-28.05v26.9c0 0.73 0 1.5 1.38 1.5h10.7c1 0 1.38-0.31 1.38-1.47 0-23 0.12-15.91 0-39.31 0-3.44-2.36-6.81-6.23-6.81h-5.09a3.78 3.78 0 0 0-3.52 1.61c-15.92 24.49-14.87 23.21-15.73 23.4-0.86-0.19 0.2 1.11-15.73-23.4a3.78 3.78 0 0 0-3.52-1.61h-5.14c-3.88 0-6.21 3.37-6.23 6.81v39.31c0 1.16 0.34 1.47 1.38 1.47h10.7c1 0 1.38-0.31 1.38-1.47v-26.93l16.5 28.05a0.7 0.7 0 0 0 1.27 0z">
+                </path>
+                <path
+                  d="m477.91 116.43a1.71 1.71 0 0 0-1.22-0.33h-15.12a1.45 1.45 0 0 1-1.45-1.46v-33.93c0-0.74 0-1.55-1.38-1.55h-10.7c-1 0-1.38 0.35-1.38 1.51v39.31c0 3.45 2.35 6.77 6.23 6.77h30a28.44 28.44 0 0 1-4.98-10.32z">
+                </path>
+                <path
+                  d="m614.39 88.22c-2.4-7.83-10.19-9.08-12.3-9.06h-57.53c-3.87 0-6.19 3.37-6.23 6.81v39.31c0 1.16 0.34 1.47 1.38 1.47h10c1 0 1.38-0.31 1.38-1.47v-15.82a1.46 1.46 0 0 1 1.46-1.46h11.49c1.26 0 1.53-0.35 1.53-1.57v-6.91c0-1.22-0.27-1.57-1.53-1.57h-11.5a1.45 1.45 0 0 1-1.46-1.45v-5.19a1.45 1.45 0 0 1 1.46-1.45h28.2v35.42c0 1.16 0.34 1.47 1.37 1.47h10.71c1 0 1.38-0.31 1.38-1.47v-35.42h18.68c1.26 0 1.92-0.3 1.51-1.64z">
+                </path>
+                <path
+                  d="m436.09 106.43c0 1.22-0.27 1.58-1.53 1.57h-22.29a1.47 1.47 0 0 0-1.46 1.46v5.18a1.46 1.46 0 0 0 1.46 1.46h25c1.26 0 1.53 0.41 1.53 1.57v7.54c0 1.2-0.27 1.55-1.52 1.54h-33c-3.87 0-6.19-3.32-6.22-6.77v-34c0-3.44 2.35-6.81 6.23-6.81h33c1.25 0 1.55 0.39 1.53 1.59v7.54c0 1.16-0.27 1.57-1.52 1.57h-25.03a1.46 1.46 0 0 0-1.46 1.45v5.19a1.46 1.46 0 0 0 1.46 1.45h22.29c1.26 0 1.53 0.35 1.53 1.57z">
+                </path>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+
+      <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+        <div class="CollapseItem_root com-footer__inner-link" data-aos="fade-up" data-aos-delay="200">
+          <div class="CollapseItem_mask">
+            <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898"
+              class="CollapseItem_arrow">
+              <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+            </svg>
           </div>
 
-          <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
-            <div class="CollapseItem_root com-footer__inner-link">
-              <div class="CollapseItem_mask">
-                <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898"
-                  class="CollapseItem_arrow">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
-                    stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
-                </svg>
-              </div>
+          <div class="CollapseItem_content CollapseItem_content--non-title com-footer__inner-link-content">
+            <ul>
+              <li><a href="#">Homepage</a></li>
+              <li><a href="#" class="com-footer__inner-link-content--active">Games for Everyone</a></li>
+              <li><a href="#">Gaming for Businesses</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-              <div class="CollapseItem_content CollapseItem_content--non-title com-footer__inner-link-content">
-                <ul>
-                  <li><a href="#">Homepage</a></li>
-                  <li><a href="#" class="com-footer__inner-link-content--active">Games for Everyone</a></li>
-                  <li><a href="#">Gaming for Businesses</a></li>
-                  <li><a href="#">About Us</a></li>
-                </ul>
-              </div>
-            </div>
+      <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+        <div class="CollapseItem_root com-footer__visit"  data-aos="fade-up" data-aos-delay="200">
+          <div class="CollapseItem_mask">
+            <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898"
+              class="CollapseItem_arrow">
+              <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+            </svg>
           </div>
 
-          <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
-            <div class="CollapseItem_root com-footer__visit">
-              <div class="CollapseItem_mask">
-                <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898"
-                  class="CollapseItem_arrow">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
-                    stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
-                </svg>
-              </div>
+          <div class="CollapseItem_title">Visit</div>
 
-              <div class="CollapseItem_title">Visit</div>
+          <div class="CollapseItem_content com-footer__visit-content">
+            <ul>
+              <li><a href="#">Gameloft Careers</a></li>
+              <li><a href="#">Gameloft News</a></li>
+              <li><a href="#">Gameloft Community</a></li>
+              <li><a href="#">Gameloft Corporate</a></li>
+              <li><a href="#">Gameloft Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-              <div class="CollapseItem_content com-footer__visit-content">
-                <ul>
-                  <li><a href="#">Gameloft Careers</a></li>
-                  <li><a href="#">Gameloft News</a></li>
-                  <li><a href="#">Gameloft Community</a></li>
-                  <li><a href="#">Gameloft Corporate</a></li>
-                  <li><a href="#">Gameloft Support</a></li>
-                </ul>
-              </div>
-            </div>
+      <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
+        <div class="CollapseItem_root com-footer__legal"  data-aos="fade-up" data-aos-delay="200">
+          <div class="CollapseItem_mask">
+            <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898"
+              class="CollapseItem_arrow__UVZrw">
+              <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
+                stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+            </svg>
           </div>
 
-          <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
-            <div class="CollapseItem_root com-footer__legal">
-              <div class="CollapseItem_mask">
-                <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898"
-                  class="CollapseItem_arrow__UVZrw">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
-                    stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
-                </svg>
-              </div>
+          <div class="CollapseItem_title">Legal</div>
 
-              <div class="CollapseItem_title">Legal</div>
-
-              <div class="CollapseItem_content com-footer__legal-content">
-                <ul>
-                  <li><a href="#">Terms of Use</a></li>
-                  <li><a href="#">Privacy Policies</a></li>
-                  <li><a href="#">Cookies Policy</a></li>
-                  <li><a href="#">EULA</a></li>
-                  <li><a href="#">Legal Notices</a></li>
-                  <li><a href="#">Event Rules</a></li>
-                </ul>
-              </div>
-            </div>
+          <div class="CollapseItem_content com-footer__legal-content">
+            <ul>
+              <li><a href="#">Terms of Use</a></li>
+              <li><a href="#">Privacy Policies</a></li>
+              <li><a href="#">Cookies Policy</a></li>
+              <li><a href="#">EULA</a></li>
+              <li><a href="#">Legal Notices</a></li>
+              <li><a href="#">Event Rules</a></li>
+            </ul>
           </div>
+        </div>
+      </div>
 
-          <div class="com-footer__follow-lang" style="opacity: 1; visibility: initial;">
-            <div class="com-footer__follow-us">
-              <div class="SocialChannel_social-channel">
-                <div class="text-body2 SocialChannel_title">Find us on</div>
-                <div class="SocialChannel_icon-container seo-footer-social-tracking-btn">
-                  <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
-                   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR0SURBVHgB5Zs7cNNAEIb/u5hHA7gEKtPQohAKurikgCGUVJgG6JKhogBih6E3JV1oqANDH6cnY9U0KE2gNENDEevYPcmOrUiOZOvOUvzNJHpYTvTrdvfu9lYCBnE2VBWXsSoF6gKo8ilFW9qvjV5H5zw659FuTym4PuCKPtzue3EAQwjkzPIbtSpYqMAaHTqYDZceSkcdoZ33Q8hFeNiyD5cEGnRYhxncvkLb3RKfkAMzC195q9aVQDM0ZeOwW/gKzVkfwNTCtUlLbEf91Rb8AJSPRved2MMUZBbOZi2vYJO+uIECQA+g7f9By22LXpbvZRLuvFI1eQG782rlJHTrH6GeJQDKtBeyaZPobtFEM3xPsgKX7zHtd1IJpwD2REp0bAWwKanyPfK9prn4VFPXf0hgG2VCobF/StSfKFybNz1FlBDfJ5+fEPEThYeBrFtw855Ezz+CkxTwYn1cd1lB9C6raKYqKujoUWUMscLDfrqGkqOjPWlJ+GycMvt1EnH+XolexMNQWOTSReDmVeD6iEH+/Rf8/PgdbGcl1HRj7NzogUNd15KlrosFP6sD951gP459D3i+jXxQ2KAu7sPgcMzHKWHQhAW4dT+/AB7fTRadO6RtNNANhXNr2wpoHxvANfv9hc4ZDA6GwsnErcy2HjhzEa0JEyUaLZwHK5g9TZSK+6f8Fw5o7Nv8w/s5Ux9MZHRUp8HKOiyxUos/f9gLAtmvTLPq7HA+kDZ7usWFuTzZGJMCWWvHvGgmTIJC2jTzScLZtC3h6CE5zuMWFowK5/qlpdYuEj75uSSbXzjhPOvkqG6sV91cGz+e5OPRa5lvrjHfdyqUoazlvo4U8iCDLcVdy8JNwOt3ssjz7jxmZnHoeToKjIGR25DCCjcpmims8EPTQ9fbm+qnLT/nefjXhDngnSaswUtOHNwsjJCLBVdfsKkb6jQKTU+qBWxxrrORvjpbqeQ0kJm7kn5PVVFQZvrnSbjb1JUEi+Tnbve1OND9ONn8DhYELh/jbSC8sjh+rs6hzVstvPtWryt1cPbRZs47x0NWVbKqh2lQQWszQ+F9iS842326N1oeMhSuo7uys3Y2FyLaTiRfVmjSAkOTFk49vbwX/1nLbL/i7bfE2DLxifVxfwkN2TcT6Dij0ppDx0kJ1afRcyfm4xzhuUwSZwTW8r0pOtHzsYkIyju3EBTOlx0v1HKC5HKvpqotKXRR5nKvc3AG/XaUxNQTRXmP/H0NJYX8+lGSaGZizk2P6NTxYnppoHuO8+tRUq0llKqeNUUdK5N6EWV5S61SN8edUVF9vsfmfVpLD8hWqB8EvF0Ub/XFo0BWn+TTUTLl1Tng9QWWi9TP873wPWURzUz/Mk5g+tuYX+t7PCJLa9pR8nj9igNfE/YegJ5MjVYpTkNuK8ThA+B1ElOFBh3OGfD0OcwTzkTuS+McAGnRfV0FlVSzv2JJ+UBJmeBpTToJUzUBGt0L8Iu0Pm6FJSfVsBChNnpd+FKtzvbyVgns9amF82jZJP4Dzex3VYh4gNEAAAAASUVORK5CYII=" alt="facebook" class="Icon_icon">
-                  </a>
+      <div class="com-footer__follow-lang" style="opacity: 1; visibility: initial;" data-aos="fade-up" data-aos-delay="200">
+        <div class="com-footer__follow-us">
+          <div class="SocialChannel_social-channel" >
+            <div class="text-body2 SocialChannel_title">Find us on</div>
+            <div class="SocialChannel_icon-container seo-footer-social-tracking-btn" >
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
+               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR0SURBVHgB5Zs7cNNAEIb/u5hHA7gEKtPQohAKurikgCGUVJgG6JKhogBih6E3JV1oqANDH6cnY9U0KE2gNENDEevYPcmOrUiOZOvOUvzNJHpYTvTrdvfu9lYCBnE2VBWXsSoF6gKo8ilFW9qvjV5H5zw659FuTym4PuCKPtzue3EAQwjkzPIbtSpYqMAaHTqYDZceSkcdoZ33Q8hFeNiyD5cEGnRYhxncvkLb3RKfkAMzC195q9aVQDM0ZeOwW/gKzVkfwNTCtUlLbEf91Rb8AJSPRved2MMUZBbOZi2vYJO+uIECQA+g7f9By22LXpbvZRLuvFI1eQG782rlJHTrH6GeJQDKtBeyaZPobtFEM3xPsgKX7zHtd1IJpwD2REp0bAWwKanyPfK9prn4VFPXf0hgG2VCobF/StSfKFybNz1FlBDfJ5+fEPEThYeBrFtw855Ezz+CkxTwYn1cd1lB9C6raKYqKujoUWUMscLDfrqGkqOjPWlJ+GycMvt1EnH+XolexMNQWOTSReDmVeD6iEH+/Rf8/PgdbGcl1HRj7NzogUNd15KlrosFP6sD951gP459D3i+jXxQ2KAu7sPgcMzHKWHQhAW4dT+/AB7fTRadO6RtNNANhXNr2wpoHxvANfv9hc4ZDA6GwsnErcy2HjhzEa0JEyUaLZwHK5g9TZSK+6f8Fw5o7Nv8w/s5Ux9MZHRUp8HKOiyxUos/f9gLAtmvTLPq7HA+kDZ7usWFuTzZGJMCWWvHvGgmTIJC2jTzScLZtC3h6CE5zuMWFowK5/qlpdYuEj75uSSbXzjhPOvkqG6sV91cGz+e5OPRa5lvrjHfdyqUoazlvo4U8iCDLcVdy8JNwOt3ssjz7jxmZnHoeToKjIGR25DCCjcpmims8EPTQ9fbm+qnLT/nefjXhDngnSaswUtOHNwsjJCLBVdfsKkb6jQKTU+qBWxxrrORvjpbqeQ0kJm7kn5PVVFQZvrnSbjb1JUEi+Tnbve1OND9ONn8DhYELh/jbSC8sjh+rs6hzVstvPtWryt1cPbRZs47x0NWVbKqh2lQQWszQ+F9iS842326N1oeMhSuo7uys3Y2FyLaTiRfVmjSAkOTFk49vbwX/1nLbL/i7bfE2DLxifVxfwkN2TcT6Dij0ppDx0kJ1afRcyfm4xzhuUwSZwTW8r0pOtHzsYkIyju3EBTOlx0v1HKC5HKvpqotKXRR5nKvc3AG/XaUxNQTRXmP/H0NJYX8+lGSaGZizk2P6NTxYnppoHuO8+tRUq0llKqeNUUdK5N6EWV5S61SN8edUVF9vsfmfVpLD8hWqB8EvF0Ub/XFo0BWn+TTUTLl1Tng9QWWi9TP873wPWURzUz/Mk5g+tuYX+t7PCJLa9pR8nj9igNfE/YegJ5MjVYpTkNuK8ThA+B1ElOFBh3OGfD0OcwTzkTuS+McAGnRfV0FlVSzv2JJ+UBJmeBpTToJUzUBGt0L8Iu0Pm6FJSfVsBChNnpd+FKtzvbyVgns9amF82jZJP4Dzex3VYh4gNEAAAAASUVORK5CYII=" alt="facebook" class="Icon_icon">
+              </a>
 
-                  <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
-                    <img src="data:image/png;base64,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" alt="instagram" class="Icon_icon">
-                  </a>
-                      
-                  <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUWSURBVHgB5Zs9bNtGFMf/R9ESINSAWnVJ0A96cUYrW9tF6tKtSIpOnSQDiWtPdtGtLRB56awOgR0HReQpRbsoSNci1BIvLaKiU7xYBop2aVAFAWJIkHl572hFH6RkSaQsUvoBBsUjRfN/7+7du3cngUmSu5dArJmGtDIQMgEpUlSaoD+j584qpKxCoAaICoRWQZOOP944xoQQ8JubeyRUZqDhOp2l4I0K/Zk4jRT8rgR/hLNlo41rJDgHITKYDFwJBex9uQ8f8C785u4mPSZPT0rgQqAuwf/PYwWML5ybtJBFOPvrBUEVILUc7q6VMQajC7eb9S36tIUgYMkCmrFtFFdro3xtNOG5HQNR7RGmZuV+kPVP9cwoDlAb9kbVtBe0JwicaEYY0E4r6h2HZDjha3ey1J/Ni3NgY8Dvxu/I7zrU7edhP6iIcJE7z+sPFm57bhNhRFI8McDj9xfOjoz7dJCb9yAkhb9WJNXP4bn3cTVkkfcOq2iG3z3SNJUWF9yF2+O0gdAjDOj1W65XHCVh7tf9cOnvTovbYehsIaxib1G3cHvoMjBzCMOeTLXptXgeMwvN6DocXVu4T9ZeeSeJ9PIlJOJRBAr28pwzOEPvuORptmUk38Cjrz+l46I6r/73Avlf/8D+wSECAydKABXR2V7dnnUdwQNPvvscqXeTXWW1l3UsfXufjg0EhjMPbzf1qLYJj/SKZhLxGIy3FhEoOB+Idh/PwCNsXTf+PwmQtRmhkqAknJu592wotn4+cJTlH/6O42cvECgEaSXvriOmr1DeG15hJ1Y+/BfZD5fVOX82D/9BINHraZ1Ee7Z2iypZd5s8eeDRRIaHM1+Ev590d2KdTd3tnucn9dden8f/zPJlNSRyJVb+foYHlSp8h1Z19LOlHXilmM0gc+VSVxm//NI399vn33/h+F7+IY/1T3FPff+y4zrHA1u/HPhbAZZIaSTawBRpBT5uotX1txdR2vgE11IGfIOiOB7ODEyR3EdXXkd7gyhm036Gwcbw6eUJw3EAd41+8QAHQ9kPluEXgRBefPyUQtuflD9486t9FH77y/U+dnx+MXXh7LxW98tdluYh0c3yqfeS8AsWXsUUKf1ZdZTx8GZSADRBqix8pMU2v+k3c5vojE4KEi5kBfOGsGo8jk/V4tNBVMjimol5w5IkvK6PtaMg1MR0Em7vJJiffi5J6+0bx61xvIR5QcDkgy08IkzMCwuRAh9s4Tu0rjRr62VunDVz/tjOq0tRhIekY6lypCYZndROusPO4mNnjp2TDW64pa16nzcyAoX2xxa8vLLQOAr1mvhAZBV760uts/Ykhb27RutLM0u3NmfOae0Or6gYmCm6rc04p6URkcOsoclVR5Hjph21c6CA2aGA3Q2zt9A9EdGIbmPK83R/oCYeV1ocuAtXjs76WG2ZCiv87gt6BgX3zb39U0+7G1Xo4jrCSsT6rBWsuDE452b39xzCR86tX3cy3BJKuPaz5ob59cLwa0cbe2k0ZSmwkR33aW7e51i6xWiLZuu0lm4FdKM+O7Lbk9ioz7DDa0SvIljjfAHx2NVRRDPjL5Ny0z+d8o9xOCIbsmn34n192HZ8eVxUBajYQuZxd/0HeMC78BaqAsQWvZRvOyy6EJQlktTC4tEH/YKSkR4Hv2EHKLVNtZ/McyUISoLSSKJZ5XGbdN8nY5LYowCLXwFvOREiQVYz4PajWtDChrAq6ihRJsuafli2H68AxQ7H8TEwOSEAAAAASUVORK5CYII=" alt="linkedin" class="Icon_icon">
-                  </a>
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
+                <img src="data:image/png;base64,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" alt="instagram" class="Icon_icon">
+              </a>
+                  
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAUWSURBVHgB5Zs9bNtGFMf/R9ESINSAWnVJ0A96cUYrW9tF6tKtSIpOnSQDiWtPdtGtLRB56awOgR0HReQpRbsoSNci1BIvLaKiU7xYBop2aVAFAWJIkHl572hFH6RkSaQsUvoBBsUjRfN/7+7du3cngUmSu5dArJmGtDIQMgEpUlSaoD+j584qpKxCoAaICoRWQZOOP944xoQQ8JubeyRUZqDhOp2l4I0K/Zk4jRT8rgR/hLNlo41rJDgHITKYDFwJBex9uQ8f8C785u4mPSZPT0rgQqAuwf/PYwWML5ybtJBFOPvrBUEVILUc7q6VMQajC7eb9S36tIUgYMkCmrFtFFdro3xtNOG5HQNR7RGmZuV+kPVP9cwoDlAb9kbVtBe0JwicaEYY0E4r6h2HZDjha3ey1J/Ni3NgY8Dvxu/I7zrU7edhP6iIcJE7z+sPFm57bhNhRFI8McDj9xfOjoz7dJCb9yAkhb9WJNXP4bn3cTVkkfcOq2iG3z3SNJUWF9yF2+O0gdAjDOj1W65XHCVh7tf9cOnvTovbYehsIaxib1G3cHvoMjBzCMOeTLXptXgeMwvN6DocXVu4T9ZeeSeJ9PIlJOJRBAr28pwzOEPvuORptmUk38Cjrz+l46I6r/73Avlf/8D+wSECAydKABXR2V7dnnUdwQNPvvscqXeTXWW1l3UsfXufjg0EhjMPbzf1qLYJj/SKZhLxGIy3FhEoOB+Idh/PwCNsXTf+PwmQtRmhkqAknJu592wotn4+cJTlH/6O42cvECgEaSXvriOmr1DeG15hJ1Y+/BfZD5fVOX82D/9BINHraZ1Ee7Z2iypZd5s8eeDRRIaHM1+Ev590d2KdTd3tnucn9dden8f/zPJlNSRyJVb+foYHlSp8h1Z19LOlHXilmM0gc+VSVxm//NI399vn33/h+F7+IY/1T3FPff+y4zrHA1u/HPhbAZZIaSTawBRpBT5uotX1txdR2vgE11IGfIOiOB7ODEyR3EdXXkd7gyhm036Gwcbw6eUJw3EAd41+8QAHQ9kPluEXgRBefPyUQtuflD9486t9FH77y/U+dnx+MXXh7LxW98tdluYh0c3yqfeS8AsWXsUUKf1ZdZTx8GZSADRBqix8pMU2v+k3c5vojE4KEi5kBfOGsGo8jk/V4tNBVMjimol5w5IkvK6PtaMg1MR0Em7vJJiffi5J6+0bx61xvIR5QcDkgy08IkzMCwuRAh9s4Tu0rjRr62VunDVz/tjOq0tRhIekY6lypCYZndROusPO4mNnjp2TDW64pa16nzcyAoX2xxa8vLLQOAr1mvhAZBV760uts/Ykhb27RutLM0u3NmfOae0Or6gYmCm6rc04p6URkcOsoclVR5Hjph21c6CA2aGA3Q2zt9A9EdGIbmPK83R/oCYeV1ocuAtXjs76WG2ZCiv87gt6BgX3zb39U0+7G1Xo4jrCSsT6rBWsuDE452b39xzCR86tX3cy3BJKuPaz5ob59cLwa0cbe2k0ZSmwkR33aW7e51i6xWiLZuu0lm4FdKM+O7Lbk9ioz7DDa0SvIljjfAHx2NVRRDPjL5Ny0z+d8o9xOCIbsmn34n192HZ8eVxUBajYQuZxd/0HeMC78BaqAsQWvZRvOyy6EJQlktTC4tEH/YKSkR4Hv2EHKLVNtZ/McyUISoLSSKJZ5XGbdN8nY5LYowCLXwFvOREiQVYz4PajWtDChrAq6ihRJsuafli2H68AxQ7H8TEwOSEAAAAASUVORK5CYII=" alt="linkedin" class="Icon_icon">
+              </a>
 
-                  <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
-                    <img src="data:image/png;base64,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" alt="twitter" class="Icon_icon">
-                  </a>
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
+                <img src="data:image/png;base64,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" alt="twitter" class="Icon_icon">
+              </a>
 
-                  <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOMSURBVHgB7ZvrVatAEMeHnPtdOgipINwKwAquHSRWEDuIHWAHagVqBeRWQKwArCCxgrkzLhjg5rWTXR6Jv3NGkANh/zu7s08csAgCuHQIyEJQ535+9Gq3ZrmtyZaFOQAf0BdIbEA2J0vI8ETj34jIhtBF2LNkE7LYgNh9mTCBrkCJmZGtLAquW9pqBuRFOm1Q8LYMCKAp8mIdtSi4bpwWF2xCL/CwXS/v8/4QbJAX7Sbrsq6tjBd9VBG7q4LrNgET9Ey0GfGoindfxNYtAAmoAlmX6/Qh47QPd+kb7BDNzUMMtpsJu3DaF7hDw2DHQ3P4fyDRRzxQWg7T83p9dH13tghP4Ty8XSYjoaPyhUpRR9UMeHB+cKCelS9UPH6m3i7gSY6Ro47wq7hqzNsuBdGrK3V03c01V6OByLLN+Xqt7OPkyRhOwB+y58pVlM6YBAHi4yNimqJ1VivEOEaMIsThUBLk4rpoTyR6PsfW4IyWiQ/KwvXH1+Mxtg6L1xc+Z81FVA9Bl7s7aB3PI/8Fuk/d8J8BqoDmgy6+/iNW0E+HT5pd9vgYJPRXOBOwcP0nuYhJWK/BODrN5IZQJlz2MloboQWSEfUcn57AGDInfBV1fRXcQZHCnZPbWwoxN9WOihSZE3wW7kEbvL0p70+nZjJAD1cmfDQCYzxTD/L6Wl78ZUXdG0AXKIo/Z+jrKzRBN4QXFIObBuiGcBYbRSrqhyE0AQvPQJfVCowxo/mBNJV3gWWBMePxuH6vwkRHhPvYDw9t9QAz9vgSdPn8BDEcheOYJn4XZkTLnLBu1uMsNEnMBjBZWpbs8QXoIu1w6E5BHYMsLV/C/4KE5ntb21nq11R+auBstljpwXW0C7y/gyZf28iKdly/u2RyhCWFS52+AxbfZyhdNurnZOOwkg0o3aPm+4gvL4hJgtbh6WV+D2e460pEJ4VepyR8QocnOJUictdHTTqjqHLgLM7NBNOpky8olIVzO5NCv9fE91FZOPwepOTR/R7Ol/vyPz/LxCWmcH7cHnUXdmvL5qkWbdPo7BDOAY5Dvwf9JiP77egMxPDMt3sdEh/0ROQ2C+EU8BK3dPZU/ARMgv3Yth2CDfASN+qXxF/epxm1DAiw/Y9xQmgLVIGvyQzgujyDrpBnQIL2BMf5O7o5bEYVACM094nl3EaRdsAiuNlRNYbqB7Ve7dYMNrO9fOQp74UjWew4kn9UU0SnqvDzpQAAAABJRU5ErkJggg==" alt="youtube" class="Icon_icon">
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          <div class="com-footer__bottom-container">
-            <div style="opacity: 1; visibility: inherit;">
-              <div class="com-footer__copyright text-body3">
-                <p>©2023 Gameloft. All rights reserved. Gameloft and the Gameloft logo are trademarks of Gameloft in the U.S.and/or other countries.</p>
-
-                <p>All other trademarks are the property of their respective owners.</p>
-              </div>
-            </div>
-
-            <div style="opacity: 1; visibility: inherit;">
-              <div class="com-footer__copyright text-body3">
-                <p>
-                  <a href="#"><u>Manage Your Cookie Choices</u></a>
-                </p>
-              </div>
+              <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOMSURBVHgB7ZvrVatAEMeHnPtdOgipINwKwAquHSRWEDuIHWAHagVqBeRWQKwArCCxgrkzLhjg5rWTXR6Jv3NGkANh/zu7s08csAgCuHQIyEJQ535+9Gq3ZrmtyZaFOQAf0BdIbEA2J0vI8ETj34jIhtBF2LNkE7LYgNh9mTCBrkCJmZGtLAquW9pqBuRFOm1Q8LYMCKAp8mIdtSi4bpwWF2xCL/CwXS/v8/4QbJAX7Sbrsq6tjBd9VBG7q4LrNgET9Ey0GfGoindfxNYtAAmoAlmX6/Qh47QPd+kb7BDNzUMMtpsJu3DaF7hDw2DHQ3P4fyDRRzxQWg7T83p9dH13tghP4Ty8XSYjoaPyhUpRR9UMeHB+cKCelS9UPH6m3i7gSY6Ro47wq7hqzNsuBdGrK3V03c01V6OByLLN+Xqt7OPkyRhOwB+y58pVlM6YBAHi4yNimqJ1VivEOEaMIsThUBLk4rpoTyR6PsfW4IyWiQ/KwvXH1+Mxtg6L1xc+Z81FVA9Bl7s7aB3PI/8Fuk/d8J8BqoDmgy6+/iNW0E+HT5pd9vgYJPRXOBOwcP0nuYhJWK/BODrN5IZQJlz2MloboQWSEfUcn57AGDInfBV1fRXcQZHCnZPbWwoxN9WOihSZE3wW7kEbvL0p70+nZjJAD1cmfDQCYzxTD/L6Wl78ZUXdG0AXKIo/Z+jrKzRBN4QXFIObBuiGcBYbRSrqhyE0AQvPQJfVCowxo/mBNJV3gWWBMePxuH6vwkRHhPvYDw9t9QAz9vgSdPn8BDEcheOYJn4XZkTLnLBu1uMsNEnMBjBZWpbs8QXoIu1w6E5BHYMsLV/C/4KE5ntb21nq11R+auBstljpwXW0C7y/gyZf28iKdly/u2RyhCWFS52+AxbfZyhdNurnZOOwkg0o3aPm+4gvL4hJgtbh6WV+D2e460pEJ4VepyR8QocnOJUictdHTTqjqHLgLM7NBNOpky8olIVzO5NCv9fE91FZOPwepOTR/R7Ol/vyPz/LxCWmcH7cHnUXdmvL5qkWbdPo7BDOAY5Dvwf9JiP77egMxPDMt3sdEh/0ROQ2C+EU8BK3dPZU/ARMgv3Yth2CDfASN+qXxF/epxm1DAiw/Y9xQmgLVIGvyQzgujyDrpBnQIL2BMf5O7o5bEYVACM094nl3EaRdsAiuNlRNYbqB7Ve7dYMNrO9fOQp74UjWew4kn9UU0SnqvDzpQAAAABJRU5ErkJggg==" alt="youtube" class="Icon_icon">
+              </a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  </main>
+      
+        <div style="opacity: 1; visibility: inherit;"  data-aos="fade-up" data-aos-delay="200">
+          <div class="com-footer__copyright text-body3">
+            <p>©2023 Gameloft. All rights reserved. Gameloft and the Gameloft logo are trademarks of Gameloft in the U.S.and/or other countries.</p>
 
+            <p>All other trademarks are the property of their respective owners.</p>
+          </div>
+        </div>
+
+        <div style="opacity: 1; visibility: inherit; margin-bottom: 20px;"  data-aos="fade-up" data-aos-delay="100">
+          <div class="com-footer__copyright text-body3">
+            <p>
+              <a href="#"><u>Manage Your Cookie Choices</u></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/aos.js"></script>
   <script src="js/splide.min.js"></script>
   <script src="js/app.js"></script>
 </body>
