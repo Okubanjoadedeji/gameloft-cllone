@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "usernamehw.errorlens",
+    "streetsidesoftware.code-spell-checker",
+    "formulahendry.auto-rename-tag",
+    "johnpapa.vscode-peacock",
+    "formulahendry.code-runner",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}

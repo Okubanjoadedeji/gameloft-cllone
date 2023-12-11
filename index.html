@@ -64,7 +64,7 @@
           </div>
 
           <div>
-            <input class="searchbar_input h-full w-full" type="search" name="search" id="" placeholder="Search">
+            <input class="searchbar_input h-full w-full" type="search" name="search" id="" placeholder="Search" style="display: none;">
           </div>
         </div>
 
@@ -310,7 +310,7 @@
         </div>
 
         <div class="studio-group side-link-group">
-          <div class="side-link__item text-body2 side-link__item-group-label" style="opacity: 1; transform: none;">
+          <div id="studio-drop" class="side-link__item text-body2 side-link__item-group-label" style="opacity: 1; transform: none;">
             Our Studios
 
             <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898" class="side-link__item-arrow">
@@ -320,55 +320,55 @@
 
           <div class="side-link__item-group" style="height: 0px;">
             <div class="side-link__item-group-container">
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Barcelona</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Bucharest</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Kharkiv</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Montreal</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Brisbane</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Cluj</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Lviv</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Sofia</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Toronto</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Saigon</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Hanoi</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Yogyakarta</a>
               </div>
 
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);" data-aos="fade-up" data-aos-delay="200">
                 <a href="#">Paris</a>
               </div>
             </div>
@@ -396,9 +396,9 @@
             </svg>
           </div>
 
-          <div class="side-link__item-group" style="height: 0px;">
+          <div class="side-link__item-group" style="height: auto;">
             <div class="side-link__item-group-container">
-              <div class="side-link__item text-body2" style="opacity: 0; transform: translateY(30%) translateZ(0px);">
+              <div class="side-link__item text-body2" style="opacity: 1; transform: translateY(30%) translateZ(0px);">
                 <a href="#">We Belong Here</a>
               </div>
             </div>
@@ -456,32 +456,14 @@
             <div class="featured-games">
               <a href="#">
                 <div class="top-game">
-                  <img src="asset/slides/slider-img1.webp" alt="slider-img1">
+                  <img class="slide" src="asset/slides/slider-img1.webp" alt="slider-img1">
+                  <img class="slide-mini" src="asset/splide-mini/slide1-mini.webp" alt="slide1-mini">
                 </div>
               </a>
 
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Top Featured Games
-                </div>
-              </a>
-
-            </div>
-          </li>
-
-          <li class="splide__slide">
-            <div class="featured-games">
-              <a href="#">
-                <div class="top-game">
-                  <img src="asset/slides/slider-img2.webp" alt="slider-img2">
-                </div>
-              </a>
-
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Disney Speedstorm
-                </div>
-              </a>
+              <div class="title-cont" href="#">
+                Top Featured Games
+              </div>
 
             </div>
           </li>
@@ -490,15 +472,14 @@
             <div class="featured-games">
               <a href="#">
                 <div class="top-game">
-                  <img src="asset/slides/slider-img3.webp" alt="slider-img3">
+                  <img class="slide" src="asset/slides/slider-img2.webp" alt="slider-img2">
+                  <img class="slide-mini" src="asset/splide-mini/slide2-mini.webp" alt="slide2-mini">
                 </div>
               </a>
 
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Top Featured Games
-                </div>
-              </a>
+              <div class="title-cont" href="#">
+                Disney Speedstorm
+              </div>
 
             </div>
           </li>
@@ -507,15 +488,30 @@
             <div class="featured-games">
               <a href="#">
                 <div class="top-game">
-                  <img src="asset/slides/slider-img4.webp" alt="slider-img4">
+                  <img class="slide" src="asset/slides/slider-img3.webp" alt="slider-img3">
+                  <img class="slide-mini" src="asset/splide-mini/slide3-mini.webp" alt="slide3-mini">
+                </div>
+              </a>
+
+              <div class="title-cont" href="#">
+                Top Featured Games
+              </div>
+
+            </div>
+          </li>
+
+          <li class="splide__slide">
+            <div class="featured-games">
+              <a href="#">
+                <div class="top-game">
+                  <img class="slide" src="asset/slides/slider-img4.webp" alt="slider-img4">
+                  <img class="slide-mini" src="asset/splide-mini/slide4-mini.webp" alt="slide4-mini">
                 </div>
               </a>
           
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Top Featured Games
-                </div>
-              </a>
+              <div class="title-cont" href="#">
+                Top Featured Games
+              </div>
           
             </div>
           </li>
@@ -523,15 +519,14 @@
             <div class="featured-games">
               <a href="#">
                 <div class="top-game">
-                  <img src="asset/slides/slider-img5.webp" alt="slider-img5">
+                  <img class="slide" src="asset/slides/slider-img5.webp" alt="slider-img5">
+                  <img class="slide-mini" src="asset/splide-mini/slide5-mini.webp" alt="slide5-mini">
                 </div>
               </a>
           
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Top Featured Games
-                </div>
-              </a>
+              <div class="title-cont" href="#">
+                Top Featured Games
+              </div>
           
             </div>
           </li>
@@ -540,32 +535,14 @@
             <div class="featured-games">
               <a href="#">
                 <div class="top-game">
-                  <img src="asset/slides/slider-img6.webp" alt="slider-img6">
+                  <img class="slide" src="asset/slides/slider-img6.webp" alt="slider-img6">
+                  <img class="slide-mini" src="asset/splide-mini/slide6-mini.webp" alt="slide6-mini">
                 </div>
               </a>
           
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Top Featured Games
-                </div>
-              </a>
-          
-            </div>
-          </li>
-
-          <li class="splide__slide">
-            <div class="featured-games">
-              <a href="#">
-                <div class="top-game">
-                  <img src="asset/slides/slider-img7.webp" alt="slider-img7">
-                </div>
-              </a>
-          
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Top Featured Games
-                </div>
-              </a>
+              <div class="title-cont" href="#">
+                Top Featured Games
+              </div>
           
             </div>
           </li>
@@ -574,15 +551,30 @@
             <div class="featured-games">
               <a href="#">
                 <div class="top-game">
-                  <img src="asset/slides/slider-img8.webp" alt="slider-img8">
+                  <img class="slide" src="asset/slides/slider-img7.webp" alt="slider-img7">
+                  <img class="slide-mini" src="asset/splide-mini/slide7-mini.webp" alt="slide7-mini">
                 </div>
               </a>
           
-              <a class="title-cont" href="#">
-                <div class="top-game__title">
-                  Top Featured Games
+              <div class="title-cont" href="#">
+                Top Featured Games
+              </div>
+          
+            </div>
+          </li>
+
+          <li class="splide__slide">
+            <div class="featured-games">
+              <a href="#">
+                <div class="top-game">
+                  <img class="slide" src="asset/slides/slider-img8.webp" alt="slider-img8">
+                  <img class="slide-mini" src="asset/splide-mini/slide8-mini.webp" alt="slide8-mini">
                 </div>
               </a>
+          
+              <div class="title-cont" href="#">
+                Top Featured Games
+              </div>
           
             </div>
           </li>
@@ -693,603 +685,695 @@
     <section>
       <div class="com__gallery">
         <div class="com-gallery__search-bar">
-          <h1>All Games</h1>
-        
-          <div class="com-gallery__filters">
-            <div class="com-dropdown-multi com-gallery__dropdown">
-              <div class="com-dropdown-multi__text com-gallery__dropdown-text">
-                Genres
-                <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898" class="com-dropdown-multi__arrow">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
-                    stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                  </path>
-                </svg>
-              </div>
 
-              <div class="com-dropdown-multi__dropdown com-gallery__dropdown-list" style="position: absolute; inset: 0px auto auto 0px; transform: translate(-53px, 31px);">
-                <div class="com-dropdown-multi__search">
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                    xmlns="http://www.w3.org/2000/svg" class="com-dropdown-multi__search-icon">
-                    <path
-                      d="M15.1474 15.7199C15.2953 15.8676 15.535 15.8674 15.6827 15.7195C15.8303 15.5715 15.8301 15.3319 15.6822 15.1842L15.1474 15.7199ZM11.8887 11.9325L11.6213 11.6647L11.8887 11.9325ZM7.39368 13.414C4.08931 13.414 1.4106 10.7353 1.4106 7.43095H0.653613C0.653613 11.1534 3.67124 14.171 7.39368 14.171V13.414ZM1.4106 7.43095C1.4106 4.12659 4.08931 1.44787 7.39368 1.44787V0.69089C3.67124 0.69089 0.653613 3.70852 0.653613 7.43095H1.4106ZM7.39368 1.44787C10.698 1.44787 13.3768 4.12659 13.3768 7.43095H14.1337C14.1337 3.70852 11.1161 0.69089 7.39368 0.69089V1.44787ZM13.3768 7.43095C13.3768 9.08479 12.7062 10.5813 11.6213 11.6647L12.1562 12.2003C13.3775 10.9808 14.1337 9.29381 14.1337 7.43095H13.3768ZM11.6213 11.6647C10.5384 12.746 9.04441 13.414 7.39368 13.414V14.171C9.25304 14.171 10.9372 13.4176 12.1562 12.2003L11.6213 11.6647ZM11.6214 12.2004L15.1474 15.7199L15.6822 15.1842L12.1561 11.6646L11.6214 12.2004Z"
-                      fill="currentColor"></path>
-                  </svg>
+        <h1 class="text-h1 com-gallery__all-games">All Games</h1>
 
-                  <input class="com-dropdown-multi__search-input" placeholder="Search">
-                </div>
-
-                <div>
-                  <div class="com-dropdown-multi__option text-body2">Action/Adventure</div>
-                  <div class="com-dropdown-multi__option text-body2">Multiplayer</div>
-                  <div class="com-dropdown-multi__option text-body2">Puzzle</div>
-                  <div class="com-dropdown-multi__option text-body2">Racing</div>
-                  <div class="com-dropdown-multi__option text-body2">Role Playing</div>
-                  <div class="com-dropdown-multi__option text-body2">Runner</div>
-                  <div class="com-dropdown-multi__option text-body2">Strategy</div>
-                  <div class="com-dropdown-multi__option text-body2">Tycoon/Simulation</div>
-                  <div class="com-dropdown-multi__option text-body2">Arcade</div>
-                  <div class="com-dropdown-multi__option text-body2">Tower Defense</div>
-                  <div class="com-dropdown-multi__option text-body2">Music</div>
-                  <div class="com-dropdown-multi__option text-body2">Sports</div>
-                  <div class="com-dropdown-multi__option text-body2">Casual</div>
-                </div>
-              </div>
+        <div class="com-gallery__filters">
+          <div class="com-dropdown-multi com-gallery__dropdown">
+            <div class="com-dropdown-multi__text com-gallery__dropdown-text">
+              Genres
+              <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898" class="com-dropdown-multi__arrow">
+                <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-width="4">
+                </path>
+              </svg>
             </div>
 
-            <div class="com-dropdown-multi com-gallery__dropdown">
-              <div class="com-dropdown-multi__text com-gallery__dropdown-text">
-                Platforms
-                <svg width="14.277" height="22.898"
-                  viewBox="0 0 14.277 22.898" class="com-dropdown-multi__arrow">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
-                    stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
-                </svg>
-              </div>
-
-              <div class="com-dropdown-multi__dropdown com-gallery__dropdown-list" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; transform: translate(-19px, 31px);">
-                <div>
-                  <div class="com-dropdown-multi__option text-body2">Apple Arcade</div>
-                  <div class="com-dropdown-multi__option text-body2">Android</div>
-                  <div class="com-dropdown-multi__option text-body2">iOS</div>
-                  <div class="com-dropdown-multi__option text-body2">Windows</div>
-                  <div class="com-dropdown-multi__option text-body2">Others</div>
-                </div>
-              </div>
-            </div>
-
-            <div class="com-dropdown-multi com-gallery__dropdown">
-              <div class="com-dropdown-multi__text com-gallery__dropdown-text">
-                Sort By
-                <svg width="14.277" height="22.898"
-                  viewBox="0 0 14.277 22.898" class="com-dropdown-multi__arrow">
-                  <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
-                    stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
-                </svg>
-              </div>
-
-              <div class="com-dropdown-multi__dropdown com-gallery__dropdown-list" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; transform: translate(-30px, 31px);">
-                <div>
-                  <div class="com-dropdown-multi__option text-body2">Name</div>
-                  <div class="com-dropdown-multi__option text-body2">Popularity</div>
-                  <div class="com-dropdown-multi__option text-body2">Release Date</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="SearchInput_container__+EXls com-gallery__search">
-            <div class="SearchBar_search-bar__0U-Zf text-body1 SearchBar_dark__301hy SearchInput_search__425sx"><input type="text"
-                class="SearchBar_input__YtbiT SearchInput_search-input__vkGAC com-gallery__search-input" placeholder="Search"
-                value="">
-              <div class="SearchBar_icon__aAcLt" style="transform-origin: 50% 50% 0px;"><svg width="16" height="16"
-                  viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div class="com-dropdown-multi__dropdown com-gallery__dropdown-list" style="position: absolute; inset: 0px auto auto 0px; transform: translate(-53px, 31px);">
+              <div class="com-dropdown-multi__search">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                  xmlns="http://www.w3.org/2000/svg" class="com-dropdown-multi__search-icon">
                   <path
                     d="M15.1474 15.7199C15.2953 15.8676 15.535 15.8674 15.6827 15.7195C15.8303 15.5715 15.8301 15.3319 15.6822 15.1842L15.1474 15.7199ZM11.8887 11.9325L11.6213 11.6647L11.8887 11.9325ZM7.39368 13.414C4.08931 13.414 1.4106 10.7353 1.4106 7.43095H0.653613C0.653613 11.1534 3.67124 14.171 7.39368 14.171V13.414ZM1.4106 7.43095C1.4106 4.12659 4.08931 1.44787 7.39368 1.44787V0.69089C3.67124 0.69089 0.653613 3.70852 0.653613 7.43095H1.4106ZM7.39368 1.44787C10.698 1.44787 13.3768 4.12659 13.3768 7.43095H14.1337C14.1337 3.70852 11.1161 0.69089 7.39368 0.69089V1.44787ZM13.3768 7.43095C13.3768 9.08479 12.7062 10.5813 11.6213 11.6647L12.1562 12.2003C13.3775 10.9808 14.1337 9.29381 14.1337 7.43095H13.3768ZM11.6213 11.6647C10.5384 12.746 9.04441 13.414 7.39368 13.414V14.171C9.25304 14.171 10.9372 13.4176 12.1562 12.2003L11.6213 11.6647ZM11.6214 12.2004L15.1474 15.7199L15.6822 15.1842L12.1561 11.6646L11.6214 12.2004Z"
                     fill="currentColor"></path>
-                </svg></div><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
-                class="SearchBar_clear__fyKM-" style="display: none;">
-                <path
-                  d="M10.9146 5.52479C11.0611 5.37834 11.0611 5.1409 10.9146 4.99446C10.7682 4.84801 10.5307 4.84801 10.3843 4.99446L10.9146 5.52479ZM4.83536 10.5434C4.68892 10.6898 4.68892 10.9273 4.83536 11.0737C4.98181 11.2202 5.21925 11.2202 5.36569 11.0737L4.83536 10.5434ZM10.3843 11.0737C10.5307 11.2201 10.7682 11.2201 10.9146 11.0737C11.0611 10.9273 11.0611 10.6898 10.9146 10.5434L10.3843 11.0737ZM5.36569 4.99445C5.21925 4.848 4.98181 4.848 4.83536 4.99445C4.68892 5.1409 4.68892 5.37833 4.83536 5.52478L5.36569 4.99445ZM10.3843 4.99446L4.83536 10.5434L5.36569 11.0737L10.9146 5.52479L10.3843 4.99446ZM10.9146 10.5434L5.36569 4.99445L4.83536 5.52478L10.3843 11.0737L10.9146 10.5434ZM14.625 8C14.625 11.7279 11.6029 14.75 7.875 14.75V15.5C12.0171 15.5 15.375 12.1421 15.375 8H14.625ZM7.875 14.75C4.14708 14.75 1.125 11.7279 1.125 8H0.375C0.375 12.1421 3.73286 15.5 7.875 15.5V14.75ZM1.125 8C1.125 4.27208 4.14708 1.25 7.875 1.25V0.5C3.73286 0.5 0.375 3.85786 0.375 8H1.125ZM7.875 1.25C11.6029 1.25 14.625 4.27208 14.625 8H15.375C15.375 3.85786 12.0171 0.5 7.875 0.5V1.25Z"
-                  fill="currentColor"></path>
+                </svg>
+
+                <input class="com-dropdown-multi__search-input" placeholder="Search">
+              </div>
+
+              <div>
+                <div class="com-dropdown-multi__option text-body2">Action/Adventure</div>
+                <div class="com-dropdown-multi__option text-body2">Multiplayer</div>
+                <div class="com-dropdown-multi__option text-body2">Puzzle</div>
+                <div class="com-dropdown-multi__option text-body2">Racing</div>
+                <div class="com-dropdown-multi__option text-body2">Role Playing</div>
+                <div class="com-dropdown-multi__option text-body2">Runner</div>
+                <div class="com-dropdown-multi__option text-body2">Strategy</div>
+                <div class="com-dropdown-multi__option text-body2">Tycoon/Simulation</div>
+                <div class="com-dropdown-multi__option text-body2">Arcade</div>
+                <div class="com-dropdown-multi__option text-body2">Tower Defense</div>
+                <div class="com-dropdown-multi__option text-body2">Music</div>
+                <div class="com-dropdown-multi__option text-body2">Sports</div>
+                <div class="com-dropdown-multi__option text-body2">Casual</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="com-dropdown-multi com-gallery__dropdown">
+            <div class="com-dropdown-multi__text com-gallery__dropdown-text">
+              Platforms
+              <svg width="14.277" height="22.898"
+                viewBox="0 0 14.277 22.898" class="com-dropdown-multi__arrow">
+                <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
               </svg>
             </div>
-            <div class="SearchInput_dropdown__jFUcv" data-popper-reference-hidden="false" data-popper-escaped="false"
-              data-popper-placement="top-start"
-              style="position: absolute; inset: auto auto 0px 0px; transform: translate(0px, -52px);">
+
+            <div class="com-dropdown-multi__dropdown com-gallery__dropdown-list" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; transform: translate(-19px, 31px);">
               <div>
-                <div class="SearchInput_text-recent__cOb1t">Recent</div>
-                <div>
-                  <div class="com-result-card">
-                    <div class="com-result-card__info-container">
-                      <div class="com-result-card__icon-container">
-                        <div class="box-ratio" style="aspect-ratio: 1 / 1;"><img
-                            class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow"
-                            src="https://games.assets.gameloft.com/assets/DDV_Logo2_360_9951174f4f.jpg" alt="Gameloft Gameloft"
-                            width="360" height="360" decoding="async" style=""></div>
-                      </div><span class="com-result-card__name"><span class="com-result-card--highlight ">Disney Dreamlight
-                          Valley</span></span>
-                    </div><svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
-                      <g transform="translate(2.828 2.828)">
-                        <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                        <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                      </g>
-                    </svg>
+                <div class="com-dropdown-multi__option text-body2">Apple Arcade</div>
+                <div class="com-dropdown-multi__option text-body2">Android</div>
+                <div class="com-dropdown-multi__option text-body2">iOS</div>
+                <div class="com-dropdown-multi__option text-body2">Windows</div>
+                <div class="com-dropdown-multi__option text-body2">Others</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="com-dropdown-multi com-gallery__dropdown">
+            <div class="com-dropdown-multi__text com-gallery__dropdown-text">
+              Sort By
+              <svg width="14.277" height="22.898"
+                viewBox="0 0 14.277 22.898" class="com-dropdown-multi__arrow">
+                <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
+                  stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+              </svg>
+            </div>
+
+            <div class="com-dropdown-multi__dropdown com-gallery__dropdown-list" data-popper-reference-hidden="false" data-popper-escaped="false" data-popper-placement="bottom" style="position: absolute; inset: 0px auto auto 0px; transform: translate(-30px, 31px);">
+              <div>
+                <div class="com-dropdown-multi__option text-body2">Name</div>
+                <div class="com-dropdown-multi__option text-body2">Popularity</div>
+                <div class="com-dropdown-multi__option text-body2">Release Date</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="SearchInput_container com-gallery__search">
+          <div class="SearchBar_search-bar text-body1 SearchBar_dark SearchInput_search">
+            <input type="text" class="SearchBar_input SearchInput_search-input com-gallery__search-input" placeholder="Search">
+
+            <div class="SearchBar_icon" style="transform-origin: 50% 50% 0px;">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.1474 15.7199C15.2953 15.8676 15.535 15.8674 15.6827 15.7195C15.8303 15.5715 15.8301 15.3319 15.6822 15.1842L15.1474 15.7199ZM11.8887 11.9325L11.6213 11.6647L11.8887 11.9325ZM7.39368 13.414C4.08931 13.414 1.4106 10.7353 1.4106 7.43095H0.653613C0.653613 11.1534 3.67124 14.171 7.39368 14.171V13.414ZM1.4106 7.43095C1.4106 4.12659 4.08931 1.44787 7.39368 1.44787V0.69089C3.67124 0.69089 0.653613 3.70852 0.653613 7.43095H1.4106ZM7.39368 1.44787C10.698 1.44787 13.3768 4.12659 13.3768 7.43095H14.1337C14.1337 3.70852 11.1161 0.69089 7.39368 0.69089V1.44787ZM13.3768 7.43095C13.3768 9.08479 12.7062 10.5813 11.6213 11.6647L12.1562 12.2003C13.3775 10.9808 14.1337 9.29381 14.1337 7.43095H13.3768ZM11.6213 11.6647C10.5384 12.746 9.04441 13.414 7.39368 13.414V14.171C9.25304 14.171 10.9372 13.4176 12.1562 12.2003L11.6213 11.6647ZM11.6214 12.2004L15.1474 15.7199L15.6822 15.1842L12.1561 11.6646L11.6214 12.2004Z" fill="currentColor"></path>
+              </svg>
+            </div>
+            
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="SearchBar_clear__fyKM-" style="display: none;">
+              <path d="M10.9146 5.52479C11.0611 5.37834 11.0611 5.1409 10.9146 4.99446C10.7682 4.84801 10.5307 4.84801 10.3843 4.99446L10.9146 5.52479ZM4.83536 10.5434C4.68892 10.6898 4.68892 10.9273 4.83536 11.0737C4.98181 11.2202 5.21925 11.2202 5.36569 11.0737L4.83536 10.5434ZM10.3843 11.0737C10.5307 11.2201 10.7682 11.2201 10.9146 11.0737C11.0611 10.9273 11.0611 10.6898 10.9146 10.5434L10.3843 11.0737ZM5.36569 4.99445C5.21925 4.848 4.98181 4.848 4.83536 4.99445C4.68892 5.1409 4.68892 5.37833 4.83536 5.52478L5.36569 4.99445ZM10.3843 4.99446L4.83536 10.5434L5.36569 11.0737L10.9146 5.52479L10.3843 4.99446ZM10.9146 10.5434L5.36569 4.99445L4.83536 5.52478L10.3843 11.0737L10.9146 10.5434ZM14.625 8C14.625 11.7279 11.6029 14.75 7.875 14.75V15.5C12.0171 15.5 15.375 12.1421 15.375 8H14.625ZM7.875 14.75C4.14708 14.75 1.125 11.7279 1.125 8H0.375C0.375 12.1421 3.73286 15.5 7.875 15.5V14.75ZM1.125 8C1.125 4.27208 4.14708 1.25 7.875 1.25V0.5C3.73286 0.5 0.375 3.85786 0.375 8H1.125ZM7.875 1.25C11.6029 1.25 14.625 4.27208 14.625 8H15.375C15.375 3.85786 12.0171 0.5 7.875 0.5V1.25Z" fill="currentColor"></path>
+            </svg>
+          </div>
+          
+          <div class="SearchInput_dropdown SearchInput_expanded" style="position: absolute;inset: 0px auto auto 0px;transform: translate(0px, 52px); display: none;">
+            <div class="SearchInput_result-container">
+              <div class="SearchInput_text-result">6 Result(s)</div>
+
+              <div class="SearchInput_results">
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/DDV_Logo2_360_9951174f4f.jpg" alt="Gameloft Gameloft" width="360" height="360">
+                      </div>
+                    </div>
+
+                    <span class="com-result-card__name">
+                      <span>Disney Dreamlight Valley</span>
+                    </span>
                   </div>
-                  <div class="com-result-card">
-                    <div class="com-result-card__info-container">
-                      <div class="com-result-card__icon-container">
-                        <div class="box-ratio" style="aspect-ratio: 1 / 1;"><img
-                            class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow"
-                            src="https://games.assets.gameloft.com/assets/Disney_Getaway_Blast_icon_dba50f9f9b.png"
-                            alt="Gameloft Gameloft" width="360" height="360" decoding="async" style=""></div>
-                      </div><span class="com-result-card__name"><span class="com-result-card--highlight ">Disney Getaway Blast
-                          Apple Arcade</span></span>
-                    </div><svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
-                      <g transform="translate(2.828 2.828)">
-                        <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                        <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                      </g>
-                    </svg>
+                </div>
+
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/GL_DMK_Icon_425f39b8fb.jpg" alt="Gameloft Gameloft" width="320" height="320">
+                      </div>
+                    </div>
+
+                    <span class="com-result-card__name">
+                      <span>Disney Magic Kingdoms</span>
+                    </span>
                   </div>
-                  <div class="com-result-card">
-                    <div class="com-result-card__info-container">
-                      <div class="com-result-card__icon-container">
-                        <div class="box-ratio" style="aspect-ratio: 1 / 1;"><img
-                            class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow"
-                            src="https://games.assets.gameloft.com/assets/Lego_Star_War_Icon_5799abc7f6.jpg"
-                            alt="Gameloft Gameloft" width="256" height="256" decoding="async" style=""></div>
-                      </div><span class="com-result-card__name"><span class="com-result-card--highlight ">LEGO Star Wars:
-                          Castaways</span></span>
-                    </div><svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
-                      <g transform="translate(2.828 2.828)">
-                        <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                        <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                      </g>
-                    </svg>
+                </div>
+
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/GL_DML_Icon_808f94e0fd.jpg" alt="Gameloft Gameloft" width="320" height="320">
+                      </div>
+                    </div>
+                    
+                    <span class="com-result-card__name">
+                      <span >Dra</span>
+
+                      <span class="com-result-card--highlight">go</span>
+
+                      <span>n Mania Legends</span>
+                    </span>
                   </div>
-                  <div class="com-result-card">
-                    <div class="com-result-card__info-container">
-                      <div class="com-result-card__icon-container">
-                        <div class="box-ratio" style="aspect-ratio: 1 / 1;"><img
-                            class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow"
-                            src="https://games.assets.gameloft.com/assets/GL_Asphalt9_Icon_240_b50d530061.png"
-                            alt="Gameloft Gameloft" width="240" height="240" decoding="async" style=""></div>
-                      </div><span class="com-result-card__name"><span class="com-result-card--highlight ">Asphalt 9:
-                          Legends</span></span>
-                    </div><svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
-                      <g transform="translate(2.828 2.828)">
-                        <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                        <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4">
-                        </line>
-                      </g>
-                    </svg>
+                </div>
+
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/Dungeon_Hunter_5_Icon_1e26edc1a8.jpg" alt="Gameloft Gameloft" width="256" height="256">
+                      </div>
+                    </div>
+                    
+                    <span class="com-result-card__name">
+                      <span>Dungeon Hunter 5</span>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/Lego_Star_War_Icon_5799abc7f6.jpg" alt="Gameloft Gameloft" width="256" height="256">
+                      </div>
+                    </div>
+                    <span class="com-result-card__name">
+                      <span>LE</span>
+                      <span class="com-result-card--highlight ">GO</span>
+                      <span> Star Wars: Castaways</span>
+                    </span>
                   </div>
                 </div>
               </div>
             </div>
-          </div> -->
-        </div>
-        <div class="com-gallery__game-container">
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game1.webp" alt= "Disney Speedstorm Gameloft">
+
+            <div>
+              <div class="SearchInput_text-recent">Recent</div>
+              <div>
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/disneyspeedstorm_icon_753791d27a.jpg" alt="Gameloft Gameloft" width="512" height="512">
+                      </div>
+                    </div>
+                    
+                    <span class="com-result-card__name">
+                      <span class="com-result-card--highlight ">Disney Speedstorm</span>
+                    </span>
+                  </div>
+                  
+                  <svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
+                    <g transform="translate(2.828 2.828)">
+                      <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                      <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                    </g>
+                  </svg>
                 </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Disney Speedstorm">Disney Speedstorm</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Racing, Arcade, Action/Adventure</div>
+
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/DDV_Logo2_360_9951174f4f.jpg" alt="Gameloft Gameloft" width="360" height="360">
+                      </div>
+                    </div>
+                    
+                    <span class="com-result-card__name">
+                      <span class="com-result-card--highlight ">Disney Dreamlight Valley</span>
+                    </span>
+                  </div>
+                  
+                  <svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
+                    <g transform="translate(2.828 2.828)">
+                      <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                      <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                    </g>
+                  </svg>
                 </div>
-              </div>
-            </a>
-          </div>
-          
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game 2.webp" alt="Disney Dreamlight Valley Gameloft" width="360" height="360">
+
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/Disney_Getaway_Blast_icon_dba50f9f9b.png" alt="Gameloft Gameloft" width="360" height="360">
+                      </div>
+                    </div>
+
+                    <span class="com-result-card__name">
+                      <span class="com-result-card--highlight ">Disney Getaway Blast Apple Arcade</span>
+                    </span>
+                  </div>
+                  
+                  <svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
+                    <g transform="translate(2.828 2.828)">
+                      <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                      <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                    </g>
+                  </svg>
                 </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Disney Dreamlight Valley">Disney Dreamlight Valley</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure, Role Playing, Tycoon/Simulation, Casual</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game3.webp" alt="Asphalt 9: Legends Gameloft" width="240" height="240">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Asphalt 9: Legends">Asphalt 9: Legends</abbr>
-                  </h2>
-                  <div class="com-game-card__genre">Racing, Multiplayer, Sports</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#" >
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game 4.webp" alt="The Oregon Trail Gameloft" width="360" height="360">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="The Oregon Trail">The Oregon Trail</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;" data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game5.webp" alt="March Of Empires Gameloft" width="256" height="256">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="March Of Empires">March Of Empires</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Strategy, Role Playing</div>
+
+                <div class="com-result-card">
+                  <div class="com-result-card__info-container">
+                    <div class="com-result-card__icon-container">
+                      <div class="box-ratio" style="aspect-ratio: 1 / 1;">
+                        <img class="lazy-media lazy-media--loaded com-result-card__image com-result-card--shadow" src="https://games.assets.gameloft.com/assets/Lego_Star_War_Icon_5799abc7f6.jpg" alt="Gameloft Gameloft" width="256" height="256">
+                      </div>
+                    </div>
+                    
+                    <span class="com-result-card__name">
+                      <span class="com-result-card--highlight ">LEGO Star Wars: Castaways</span>
+                    </span>
+                  </div>
+                  
+                  <svg width="22.205" height="22.205" viewBox="0 0 22.205 22.205" class="com-result-card__btn-x">
+                    <g transform="translate(2.828 2.828)">
+                      <line x1="16.548" y1="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                      <line x1="16.548" y2="16.548" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="4"></line>
+                    </g>
+                  </svg>
                 </div>
               </div>
-            </a>
+            </div>
           </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game6.webp" alt="Dungeon Hunter 6 Gameloft" width="512" height="512">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Dungeon Hunter 6">Dungeon Hunter 6</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure, Role Playing, Multiplayer</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#" >
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game7.webp" alt="Disney Getaway Blast Apple Arcade Gameloft" width="360" height="360">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Disney Getaway Blast Apple Arcade">
-                      Disney Getaway Blast Apple Arcade
-                    </abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Puzzle, Tycoon/Simulation, Casual</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game8.webp" alt="My Little Pony: Mane Merge Gameloft">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="My Little Pony: Mane Merge">My Little Pony: Mane Merge</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure, Puzzle</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game9.webp" alt="Idle Siege Gameloft" width="240" height="240">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Idle Siege">Idle Siege</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Tycoon/Simulation, Strategy</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game10.webp" alt="LEGO Star Wars: Castaways Gameloft" width="256" height="256">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="LEGO Star Wars: Castaways">LEGO Star Wars: Castaways</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure, Multiplayer</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game11.webp" alt="Heroes of the Dark Gameloft" width="360" height="360">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Heroes of the Dark">Heroes of the Dark</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Strategy</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game12.webp" alt="AutoDefense Gameloft" width="360" height="360">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="AutoDefense">AutoDefense</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Strategy, Tycoon/Simulation</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game13.webp" alt="Ballistic Baseball Gameloft" width="256" height="256">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Ballistic Baseball">Ballistic Baseball</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Sports</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a
-              href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game14.webp" alt="Modern Combat Versus Gameloft" width="320" height="320">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Modern Combat Versus">Modern Combat Versus</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure, Role Playing</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#" class="">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game15.webp" alt="War Planet Online: Global Conquest Gameloft" width="256" height="256">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="War Planet Online: Global Conquest">War Planet Online: Global Conquest</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Strategy, Action/Adventure</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game16.webp" alt="Iron Blade: Medieval Legends RPG Gameloft" width="360" height="360">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Iron Blade: Medieval Legends RPG">Iron Blade: Medieval Legends RPG</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure, Role Playing</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game17.webp" alt="City Mania: Town Building Game Gameloft" width="240" height="240">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="City Mania: Town Building Game">City Mania: Town Building Game</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Tycoon/Simulation, Strategy</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game18.webp" alt="Gangstar New Orleans: Online Open World Game Gameloft" width="256" height="256">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Gangstar New Orleans: Online Open World Game">Gangstar New Orleans: Online Open World Game</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Action/Adventure, Role Playing, Multiplayer</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game19.webp" alt="Little Big City 2 Gameloft" width="320" height="320">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Little Big City 2">Little Big City 2</abbr>
-                  </h2>
-                  <div class="com-game-card__genre">Casual</div>
-                </div>
-              </div>
-            </a>
-          </div>
-  
-          <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
-            <a href="#">
-              <div class="com-game-card">
-                <div class="com-game-card__icon-wrapper">
-                  <div class="com-game-card__read-more">Explore More</div>
-  
-                  <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game20.webp" alt="Disney Magic Kingdoms Gameloft" width="320" height="320">
-                </div>
-  
-                <div class="com-game-card__detail">
-                  <h2 class="com-game-card__name">
-                    <abbr title="Disney Magic Kingdoms">Disney Magic Kingdoms</abbr>
-                  </h2>
-  
-                  <div class="com-game-card__genre">Tycoon/Simulation</div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <button class="Button_button Button_primary-color-main Button_size-medium Button_primary com-gallery__load-more">
-          Load More 
-  
-          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M7.98047 3.43335V12.5667" stroke="currentColor" stroke-width="1.30476" stroke-linecap="round"
-              stroke-linejoin="round">
-            </path>
-            <path d="M12.5474 8L7.98073 12.5667L3.41406 8" stroke="currentColor" stroke-width="1.30476" stroke-linecap="round"
-              stroke-linejoin="round">
-            </path>
-          </svg>
-        </button>
+        </div>  
       </div>
+
+      <div class="com-gallery__game-container">
+        <div class="com-gallery__card" style="opacity: 1; transform: none;">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game1.webp" alt= "Disney Speedstorm Gameloft">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Disney Speedstorm">Disney Speedstorm</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Racing, Arcade, Action/Adventure</div>
+              </div>
+            </div>
+          </a>
+        </div>
+        
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game 2.webp" alt="Disney Dreamlight Valley Gameloft" width="360" height="360">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Disney Dreamlight Valley">Disney Dreamlight Valley</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure, Role Playing, Tycoon/Simulation, Casual</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game3.webp" alt="Asphalt 9: Legends Gameloft" width="240" height="240">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Asphalt 9: Legends">Asphalt 9: Legends</abbr>
+                </h2>
+                <div class="com-game-card__genre">Racing, Multiplayer, Sports</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#" >
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game 4.webp" alt="The Oregon Trail Gameloft" width="360" height="360">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="The Oregon Trail">The Oregon Trail</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;" data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game5.webp" alt="March Of Empires Gameloft" width="256" height="256">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="March Of Empires">March Of Empires</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Strategy, Role Playing</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game6.webp" alt="Dungeon Hunter 6 Gameloft" width="512" height="512">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Dungeon Hunter 6">Dungeon Hunter 6</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure, Role Playing, Multiplayer</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#" >
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game7.webp" alt="Disney Getaway Blast Apple Arcade Gameloft" width="360" height="360">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Disney Getaway Blast Apple Arcade">
+                    Disney Getaway Blast Apple Arcade
+                  </abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Puzzle, Tycoon/Simulation, Casual</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game8.webp" alt="My Little Pony: Mane Merge Gameloft">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="My Little Pony: Mane Merge">My Little Pony: Mane Merge</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure, Puzzle</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game9.webp" alt="Idle Siege Gameloft" width="240" height="240">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Idle Siege">Idle Siege</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Tycoon/Simulation, Strategy</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game10.webp" alt="LEGO Star Wars: Castaways Gameloft" width="256" height="256">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="LEGO Star Wars: Castaways">LEGO Star Wars: Castaways</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure, Multiplayer</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game11.webp" alt="Heroes of the Dark Gameloft" width="360" height="360">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Heroes of the Dark">Heroes of the Dark</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Strategy</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game12.webp" alt="AutoDefense Gameloft" width="360" height="360">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="AutoDefense">AutoDefense</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Strategy, Tycoon/Simulation</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game13.webp" alt="Ballistic Baseball Gameloft" width="256" height="256">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Ballistic Baseball">Ballistic Baseball</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Sports</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a
+            href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game14.webp" alt="Modern Combat Versus Gameloft" width="320" height="320">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Modern Combat Versus">Modern Combat Versus</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure, Role Playing</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#" class="">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game15.webp" alt="War Planet Online: Global Conquest Gameloft" width="256" height="256">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="War Planet Online: Global Conquest">War Planet Online: Global Conquest</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Strategy, Action/Adventure</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game16.webp" alt="Iron Blade: Medieval Legends RPG Gameloft" width="360" height="360">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Iron Blade: Medieval Legends RPG">Iron Blade: Medieval Legends RPG</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure, Role Playing</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game17.webp" alt="City Mania: Town Building Game Gameloft" width="240" height="240">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="City Mania: Town Building Game">City Mania: Town Building Game</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Tycoon/Simulation, Strategy</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game18.webp" alt="Gangstar New Orleans: Online Open World Game Gameloft" width="256" height="256">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Gangstar New Orleans: Online Open World Game">Gangstar New Orleans: Online Open World Game</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Action/Adventure, Role Playing, Multiplayer</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game19.webp" alt="Little Big City 2 Gameloft" width="320" height="320">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Little Big City 2">Little Big City 2</abbr>
+                </h2>
+                <div class="com-game-card__genre">Casual</div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="com-gallery__card" style="opacity: 1; transform: none;"  data-aos="fade-up" data-aos-delay="200">
+          <a href="#">
+            <div class="com-game-card">
+              <div class="com-game-card__icon-wrapper">
+                <div class="com-game-card__read-more">Explore More</div>
+
+                <img class="lazy-media lazy-media--loaded com-game-card__icon" src="asset/game20.webp" alt="Disney Magic Kingdoms Gameloft" width="320" height="320">
+              </div>
+
+              <div class="com-game-card__detail">
+                <h2 class="com-game-card__name">
+                  <abbr title="Disney Magic Kingdoms">Disney Magic Kingdoms</abbr>
+                </h2>
+
+                <div class="com-game-card__genre">Tycoon/Simulation</div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button class="Button_button Button_primary-color-main Button_size-medium Button_primary com-gallery__load-more">
+        Load More 
+
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7.98047 3.43335V12.5667" stroke="currentColor" stroke-width="1.30476" stroke-linecap="round"
+            stroke-linejoin="round">
+          </path>
+          <path d="M12.5474 8L7.98073 12.5667L3.41406 8" stroke="currentColor" stroke-width="1.30476" stroke-linecap="round"
+            stroke-linejoin="round">
+          </path>
+        </svg>
+      </button>
 
     </section>
   </main>
@@ -1381,7 +1465,7 @@
         <div class="CollapseItem_root com-footer__legal"  data-aos="fade-up" data-aos-delay="200">
           <div class="CollapseItem_mask">
             <svg width="14.277" height="22.898" viewBox="0 0 14.277 22.898"
-              class="CollapseItem_arrow__UVZrw">
+              class="CollapseItem_arrow">
               <path d="M0,0,8.62,8.62,17.241,0" transform="translate(2.828 20.069) rotate(-90)" fill="none"
                 stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
             </svg>
@@ -1406,7 +1490,7 @@
         <div class="com-footer__follow-us">
           <div class="SocialChannel_social-channel" >
             <div class="text-body2 SocialChannel_title">Find us on</div>
-            <div class="SocialChannel_icon-container seo-footer-social-tracking-btn" >
+            <div class="SocialChannel_icon-container" >
               <a href="#" class="Icon_icon-circle Icon_layout-fill Icon_fill-color SocialChannel_icon com-footer__sns-icon">
                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA+CAYAAABzwahEAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAR0SURBVHgB5Zs7cNNAEIb/u5hHA7gEKtPQohAKurikgCGUVJgG6JKhogBih6E3JV1oqANDH6cnY9U0KE2gNENDEevYPcmOrUiOZOvOUvzNJHpYTvTrdvfu9lYCBnE2VBWXsSoF6gKo8ilFW9qvjV5H5zw659FuTym4PuCKPtzue3EAQwjkzPIbtSpYqMAaHTqYDZceSkcdoZ33Q8hFeNiyD5cEGnRYhxncvkLb3RKfkAMzC195q9aVQDM0ZeOwW/gKzVkfwNTCtUlLbEf91Rb8AJSPRved2MMUZBbOZi2vYJO+uIECQA+g7f9By22LXpbvZRLuvFI1eQG782rlJHTrH6GeJQDKtBeyaZPobtFEM3xPsgKX7zHtd1IJpwD2REp0bAWwKanyPfK9prn4VFPXf0hgG2VCobF/StSfKFybNz1FlBDfJ5+fEPEThYeBrFtw855Ezz+CkxTwYn1cd1lB9C6raKYqKujoUWUMscLDfrqGkqOjPWlJ+GycMvt1EnH+XolexMNQWOTSReDmVeD6iEH+/Rf8/PgdbGcl1HRj7NzogUNd15KlrosFP6sD951gP459D3i+jXxQ2KAu7sPgcMzHKWHQhAW4dT+/AB7fTRadO6RtNNANhXNr2wpoHxvANfv9hc4ZDA6GwsnErcy2HjhzEa0JEyUaLZwHK5g9TZSK+6f8Fw5o7Nv8w/s5Ux9MZHRUp8HKOiyxUos/f9gLAtmvTLPq7HA+kDZ7usWFuTzZGJMCWWvHvGgmTIJC2jTzScLZtC3h6CE5zuMWFowK5/qlpdYuEj75uSSbXzjhPOvkqG6sV91cGz+e5OPRa5lvrjHfdyqUoazlvo4U8iCDLcVdy8JNwOt3ssjz7jxmZnHoeToKjIGR25DCCjcpmims8EPTQ9fbm+qnLT/nefjXhDngnSaswUtOHNwsjJCLBVdfsKkb6jQKTU+qBWxxrrORvjpbqeQ0kJm7kn5PVVFQZvrnSbjb1JUEi+Tnbve1OND9ONn8DhYELh/jbSC8sjh+rs6hzVstvPtWryt1cPbRZs47x0NWVbKqh2lQQWszQ+F9iS842326N1oeMhSuo7uys3Y2FyLaTiRfVmjSAkOTFk49vbwX/1nLbL/i7bfE2DLxifVxfwkN2TcT6Dij0ppDx0kJ1afRcyfm4xzhuUwSZwTW8r0pOtHzsYkIyju3EBTOlx0v1HKC5HKvpqotKXRR5nKvc3AG/XaUxNQTRXmP/H0NJYX8+lGSaGZizk2P6NTxYnppoHuO8+tRUq0llKqeNUUdK5N6EWV5S61SN8edUVF9vsfmfVpLD8hWqB8EvF0Ub/XFo0BWn+TTUTLl1Tng9QWWi9TP873wPWURzUz/Mk5g+tuYX+t7PCJLa9pR8nj9igNfE/YegJ5MjVYpTkNuK8ThA+B1ElOFBh3OGfD0OcwTzkTuS+McAGnRfV0FlVSzv2JJ+UBJmeBpTToJUzUBGt0L8Iu0Pm6FJSfVsBChNnpd+FKtzvbyVgns9amF82jZJP4Dzex3VYh4gNEAAAAASUVORK5CYII=" alt="facebook" class="Icon_icon">
               </a>
@@ -1431,18 +1515,21 @@
         </div>
       </div>
       
-        <div style="opacity: 1; visibility: inherit;"  data-aos="fade-up" data-aos-delay="200">
+      <div class="com-footer__bottom-container "data-aos="zoom-in" data-aos-delay="200">
+        <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
           <div class="com-footer__copyright text-body3">
-            <p>©2023 Gameloft. All rights reserved. Gameloft and the Gameloft logo are trademarks of Gameloft in the U.S.and/or other countries.</p>
+            <p>©2023 Gameloft. All rights reserved. Gameloft and the Gameloft logo are trademarks of Gameloft in the U.S. and/or other countries.</p>
 
             <p>All other trademarks are the property of their respective owners.</p>
           </div>
         </div>
 
-        <div style="opacity: 1; visibility: inherit; margin-bottom: 20px;"  data-aos="fade-up" data-aos-delay="100">
+        <div style="opacity: 1; visibility: inherit; transform: translate(0px, 0px);">
           <div class="com-footer__copyright text-body3">
             <p>
-              <a href="#"><u>Manage Your Cookie Choices</u></a>
+              <a href="#">
+                <u>Manage Your Cookie Choices</u>
+              </a>
             </p>
           </div>
         </div>
