@@ -1283,10 +1283,11 @@ a {
 }
 
 
-
-
-
-
+.com-dropdown-multi__option--selected {
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  color: #000 !important;
+}
 
 
 
